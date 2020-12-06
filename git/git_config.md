@@ -15,3 +15,4 @@
 |--local|オプションを書き込む場合：リポジトリの.git / configファイルに書き込みます。 これがデフォルトの動作です。<br>読み取りオプションの場合：使用可能なすべてのファイルからではなく、リポジトリ.git / configからのみ読み取ります。|
 |--worktree|オプションを書き込む場合：リポジトリの.git / configファイルに書き込みます。 これがデフォルトの動作です。<br>読み取りオプションの場合：使用可能なすべてのファイルからではなく、リポジトリ.git / configからのみ読み取ります。|
 |-f config-file<br>--file config-file|GIT_CONFIGで指定されたものではなく、指定された構成ファイルを使用してください。|
+|--blob blob|--fileに似ていますが、ファイルの代わりに指定されたblobを使用します。 例えば。 master：.gitmodulesを使用して、masterブランチの.gitmodulesファイルから値を読み取ることができます。 BLOB名のスペルのより完全なリストについては、gitrevisions [7]の「SPECIFYINGREVISIONS」セクションを参照してください。|
