@@ -17,3 +17,4 @@
 |-f config-file<br>--file config-file|GIT_CONFIGで指定されたものではなく、指定された構成ファイルを使用してください。|
 |--blob blob|--fileに似ていますが、ファイルの代わりに指定されたblobを使用します。 例えば。 master：.gitmodulesを使用して、masterブランチの.gitmodulesファイルから値を読み取ることができます。 BLOB名のスペルのより完全なリストについては、gitrevisions [7]の「SPECIFYINGREVISIONS」セクションを参照してください。|
 |--remove-section|指定されたセクションを構成ファイルから削除します。|
+|--rename-section|指定されたセクションの名前を新しい名前に変更します。|
