@@ -1,5 +1,7 @@
 # git init
 
+[Git - git-init Documentation](https://git-scm.com/docs/git-init)
+
 ## オプション
 
 |オプション|説明|
