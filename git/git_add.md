@@ -23,3 +23,4 @@
 |--no-warn-embedded-repo|デフォルトでは、git submodule addを使用して.gitmodulesにエントリを作成せずに、埋め込みリポジトリをインデックスに追加すると、gitaddは警告を表示します。 このオプションは、警告を抑制します（たとえば、サブモジュールで手動で操作を実行している場合）。|
 |--renormalize|追跡されたすべてのファイルに「クリーン」プロセスを新たに適用して、それらをインデックスに強制的に再度追加します。 これは、core.autocrlf構成またはtext属性を変更した後、間違ったCRLF / LF行末で追加されたファイルを修正するために役立ちます。 このオプションは-uを意味します。|
 |--chmod=(+\|-)x|追加されたファイルの実行可能ビットを上書きします。 実行可能ビットはインデックスでのみ変更され、ディスク上のファイルは変更されません。|
+|--pathspec-from-file=\<file\>|Pathspecは、コマンドライン引数の代わりに\<file\>で渡されます。 <file>が正確に-の場合、標準入力が使用されます。 Pathspec要素はLFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config [1]を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
