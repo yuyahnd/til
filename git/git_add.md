@@ -25,3 +25,4 @@
 |--chmod=(+\|-)x|追加されたファイルの実行可能ビットを上書きします。 実行可能ビットはインデックスでのみ変更され、ディスク上のファイルは変更されません。|
 |--pathspec-from-file=\<file\>|Pathspecは、コマンドライン引数の代わりに\<file\>で渡されます。 <file>が正確に-の場合、標準入力が使用されます。 Pathspec要素はLFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config [1]を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
 |--pathspec-file-nul|--pathspec-from-fileでのみ意味があります。 Pathspec要素はNUL文字で区切られ、他のすべての文字は文字通りに解釈されます（改行と引用符を含む）。|
+|--|このオプションは、ファイルのリストからコマンドラインオプションを分離するために使用できます（ファイル名がコマンドラインオプションと間違えられる可能性がある場合に便利です）。|
