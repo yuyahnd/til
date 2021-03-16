@@ -18,3 +18,4 @@
 |-z|LFではなくNULでエントリを終了します。 これは、他の形式が指定されていない場合、-porcelain = v1出力形式を意味します。|
 |--column[=\<options\>]<br>--no-column|追跡されていないファイルを列に表示します。 オプションの構文については、構成変数column.statusを参照してください。--columnおよび--no-columnオプションなしは、それぞれ、alwaysおよびneverと同等です。|
 |--ahead-behind<br>--no-ahead-behind|アップストリームブランチに関連するブランチの詳細な前後カウントを表示するか、表示しない。 デフォルトはtrueです。|
+|--renames<br>--no-renames|アップストリームブランチに関連するブランチの詳細な前後カウントを表示するか、表示しない。 デフォルトはtrueです。|
