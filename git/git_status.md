@@ -19,3 +19,4 @@
 |--column[=\<options\>]<br>--no-column|追跡されていないファイルを列に表示します。 オプションの構文については、構成変数column.statusを参照してください。--columnおよび--no-columnオプションなしは、それぞれ、alwaysおよびneverと同等です。|
 |--ahead-behind<br>--no-ahead-behind|アップストリームブランチに関連するブランチの詳細な前後カウントを表示するか、表示しない。 デフォルトはtrueです。|
 |--renames<br>--no-renames|アップストリームブランチに関連するブランチの詳細な前後カウントを表示するか、表示しない。 デフォルトはtrueです。|
+|--find-renames[=\<n\>]|名前変更の検出をオンにし、オプションで類似性のしきい値を設定します。 git-diff [1]-find-renamesも参照してください。|
