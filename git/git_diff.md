@@ -11,3 +11,4 @@
 |-U\<n\><br>--unified=\<n\>|通常の3行ではなく、\<n\>行のコンテキストで差分を生成します。 --patchを意味します。|
 |--output=\<file\>|stdoutではなく特定のファイルに出力します。|
 |--output-indicator-new=\<char\><br>--output-indicator-old=\<char\><br>--output-indicator-context=\<char\>|生成されたパッチの新しい行、古い行、またはコンテキスト行を示すために使用される文字を指定します。 通常、それらはそれぞれ+、-、および ''です。|
+|--raw|生の形式で差分を生成します。|
