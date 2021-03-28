@@ -13,3 +13,4 @@
 |--output-indicator-new=\<char\><br>--output-indicator-old=\<char\><br>--output-indicator-context=\<char\>|生成されたパッチの新しい行、古い行、またはコンテキスト行を示すために使用される文字を指定します。 通常、それらはそれぞれ+、-、および ''です。|
 |--raw|生の形式で差分を生成します。|
 |--patch-with-raw|-p --rawの同義語。|
+|--indent-heuristic|差分ハンクの境界をシフトするヒューリスティックを有効にして、パッチを読みやすくします。 これがデフォルトです。|
