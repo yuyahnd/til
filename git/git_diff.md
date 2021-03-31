@@ -17,3 +17,4 @@
 |--no-indent-heuristic|インデントヒューリスティックを無効にします。|
 |--minimal|可能な限り最小の差分が生成されるように、余分な時間を費やしてください。|
 |--patience|「patience diff」アルゴリズムを使用してdiffを生成します。|
+|--histogram|「ヒストグラムdiff」アルゴリズムを使用してdiffを生成します。|
