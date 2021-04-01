@@ -18,3 +18,4 @@
 |--minimal|可能な限り最小の差分が生成されるように、余分な時間を費やしてください。|
 |--patience|「patience diff」アルゴリズムを使用してdiffを生成します。|
 |--histogram|「ヒストグラムdiff」アルゴリズムを使用してdiffを生成します。|
+|--anchored=\<text\>|Generate a diff using the "anchored diff" algorithm.|
