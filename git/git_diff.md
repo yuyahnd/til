@@ -18,4 +18,4 @@
 |--minimal|可能な限り最小の差分が生成されるように、余分な時間を費やしてください。|
 |--patience|「patience diff」アルゴリズムを使用してdiffを生成します。|
 |--histogram|「ヒストグラムdiff」アルゴリズムを使用してdiffを生成します。|
-|--anchored=\<text\>|Generate a diff using the "anchored diff" algorithm.|
+|--anchored=\<text\>|"anchored diff" アルゴリズムを使用してdiffを生成します。<br><br>このオプションは複数回指定できます。<br><br>行がソースと宛先の両方に存在し、1回だけ存在し、このテキストで始まる場合、このアルゴリズムは、その行が出力に削除または追加として表示されないようにします。 内部で「忍耐差分」アルゴリズムを使用します。|
