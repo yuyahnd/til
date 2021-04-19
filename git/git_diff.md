@@ -26,6 +26,7 @@
 |--shortstat|--statに似ていますが、マシンフレンドリーにするために、追加および削除された行数を10進表記とパス名で省略形なしで表示します。 バイナリファイルの場合、00と言う代わりに2-を出力します。|
 |-X[\<param1,param2,…\​>]<br>--dirstat[=\<param1,param2,…\​>]|各サブディレクトリの相対的な変更量の分布を出力します。 --dirstatの動作は、パラメーターのコンマ区切りリストを渡すことでカスタマイズできます。 デフォルトは、diff.dirstat構成変数によって制御されます（git-config [1]を参照）。 次のパラメータを使用できます。※2|
 |--cumulative|--dirstat=cumulative の同義語|
+|--dirstat-by-file[=\<param1,param2\>…​]|--dirstat=files,param1,param2…  の同義語​|
 
 ※1
 * default, myers  
