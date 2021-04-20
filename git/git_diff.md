@@ -27,6 +27,8 @@
 |-X[\<param1,param2,…\​>]<br>--dirstat[=\<param1,param2,…\​>]|各サブディレクトリの相対的な変更量の分布を出力します。 --dirstatの動作は、パラメーターのコンマ区切りリストを渡すことでカスタマイズできます。 デフォルトは、diff.dirstat構成変数によって制御されます（git-config [1]を参照）。 次のパラメータを使用できます。※2|
 |--cumulative|--dirstat=cumulative の同義語|
 |--dirstat-by-file[=\<param1,param2\>…​]|--dirstat=files,param1,param2…  の同義語​|
+|--summary|作成、名前変更、モード変更などの拡張ヘッダー情報の要約を出力します。|
+
 
 ※1
 * default, myers  
