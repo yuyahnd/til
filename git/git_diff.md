@@ -28,7 +28,7 @@
 |--cumulative|--dirstat=cumulative の同義語|
 |--dirstat-by-file[=\<param1,param2\>…​]|--dirstat=files,param1,param2…  の同義語​|
 |--summary|作成、名前変更、モード変更などの拡張ヘッダー情報の要約を出力します。|
-
+|--patch-with-stat|-p --stat と同義語​|
 
 ※1
 * default, myers  
