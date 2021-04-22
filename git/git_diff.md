@@ -29,6 +29,7 @@
 |--dirstat-by-file[=\<param1,param2\>…​]|--dirstat=files,param1,param2…  の同義語​|
 |--summary|作成、名前変更、モード変更などの拡張ヘッダー情報の要約を出力します。|
 |--patch-with-stat|-p --stat と同義語​|
+|-z|--raw、-numstat、-name-only、または--name-statusが指定されている場合は、パス名を変更せず、出力フィールドターミネータとしてNULを使用してください。<br><br>このオプションがないと、構成変数core.quotePathで説明されているように、「異常な」文字を含むパス名が引用符で囲まれます（git-config [1]を参照）。|
 
 ※1
 * default, myers  
