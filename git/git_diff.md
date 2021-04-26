@@ -33,6 +33,7 @@
 |--name-only|変更されたファイルの名前のみを表示します。|
 |--name-status|変更されたファイルの名前とステータスのみを表示します。 ステータス文字の意味については、-diff-filterオプションの説明を参照してください。|
 |--submodule[=\<format\>]|サブモジュールの違いをどのように表示するかを指定します。 --submodule = shortを指定すると、短い形式が使用されます。 この形式は、範囲の最初と最後にコミットの名前を表示するだけです。 --submoduleまたは--submodule = logを指定すると、ログ形式が使用されます。 この形式は、git-submodule [1]の要約のように範囲内のコミットをリストします。 --submodule = diffを指定すると、diff形式が使用されます。 この形式は、コミット範囲間のサブモジュールの内容の変更のインライン差分を示します。 configオプションが設定されていない場合、デフォルトはdiff.submoduleまたはshort形式です。|
+|--color[=\<when\>]|色付きの差分を表示します。 --color（つまり、= \<when\>なし）は--color = alwaysと同じです。 \<when\>は、always、never、またはautoのいずれかになります。 これは、color.uiおよびcolor.diffの構成設定によって変更できます。|
 
 ※1
 * default, myers  
