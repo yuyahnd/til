@@ -35,6 +35,7 @@
 |--submodule[=\<format\>]|サブモジュールの違いをどのように表示するかを指定します。 --submodule = shortを指定すると、短い形式が使用されます。 この形式は、範囲の最初と最後にコミットの名前を表示するだけです。 --submoduleまたは--submodule = logを指定すると、ログ形式が使用されます。 この形式は、git-submodule [1]の要約のように範囲内のコミットをリストします。 --submodule = diffを指定すると、diff形式が使用されます。 この形式は、コミット範囲間のサブモジュールの内容の変更のインライン差分を示します。 configオプションが設定されていない場合、デフォルトはdiff.submoduleまたはshort形式です。|
 |--color[=\<when\>]|色付きの差分を表示します。 --color（つまり、= \<when\>なし）は--color = alwaysと同じです。 \<when\>は、always、never、またはautoのいずれかになります。 これは、color.uiおよびcolor.diffの構成設定によって変更できます。|
 |--no-color|色付きの差分をオフにします。 これは、構成設定をオーバーライドするために使用できます。 --color = neverと同じです。|
+|--color-moved[=\<mode\>]|移動したコード行の色は異なります。 これは、diff.colorMoved構成設定によって変更できます。 <mode>は、オプションが指定されていない場合はデフォルトでnoになり、モードが指定されていない場合はzebraになります。 モードは次のいずれかである必要があります。※3|
 
 ※1
 * default, myers  
