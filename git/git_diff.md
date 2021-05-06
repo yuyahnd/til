@@ -36,6 +36,7 @@
 |--color[=\<when\>]|色付きの差分を表示します。 --color（つまり、= \<when\>なし）は--color = alwaysと同じです。 \<when\>は、always、never、またはautoのいずれかになります。 これは、color.uiおよびcolor.diffの構成設定によって変更できます。|
 |--no-color|色付きの差分をオフにします。 これは、構成設定をオーバーライドするために使用できます。 --color = neverと同じです。|
 |--color-moved[=\<mode\>]|移動したコード行の色は異なります。 これは、diff.colorMoved構成設定によって変更できます。 <mode>は、オプションが指定されていない場合はデフォルトでnoになり、モードが指定されていない場合はzebraになります。 モードは次のいずれかである必要があります。※3|
+|--no-color-moved|移動検出をオフにします。 これは、構成設定をオーバーライドするために使用できます。 --color-moved = noと同じです。|
 
 ※1
 * default, myers  
