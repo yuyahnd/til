@@ -37,6 +37,7 @@
 |--no-color|色付きの差分をオフにします。 これは、構成設定をオーバーライドするために使用できます。 --color = neverと同じです。|
 |--color-moved[=\<mode\>]|移動したコード行の色は異なります。 これは、diff.colorMoved構成設定によって変更できます。 <mode>は、オプションが指定されていない場合はデフォルトでnoになり、モードが指定されていない場合はzebraになります。 モードは次のいずれかである必要があります。※3|
 |--no-color-moved|移動検出をオフにします。 これは、構成設定をオーバーライドするために使用できます。 --color-moved = noと同じです。|
+|--color-moved-ws=\<modes\>|This configures how whitespace is ignored when performing the move detection for --color-moved. It can be set by the diff.colorMovedWS configuration setting. These modes can be given as a comma separated list:※4|
 
 ※1
 * default, myers  
