@@ -40,6 +40,7 @@
 |--color-moved-ws=\<modes\>|This configures how whitespace is ignored when performing the move detection for --color-moved. It can be set by the diff.colorMovedWS configuration setting. These modes can be given as a comma separated list:※4|
 |--no-color-moved-ws|移動検出を実行するときは、空白を無視しないでください。 これは、構成設定をオーバーライドするために使用できます。 --color-moved-ws = noと同じです。|
 |--word-diff[=\<mode\>]|移動検出を実行するときは、空白を無視しないでください。 これは、構成設定をオーバーライドするために使用できます。 --color-moved-ws = noと同じです。|
+|color|Highlight changed words using only colors. Implies --color.|
 
 ※1
 * default, myers  
