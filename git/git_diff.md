@@ -72,6 +72,7 @@
 |-w<br>--ignore-all-space|行を比較するときは空白を無視します。 これは、一方の行に空白があり、もう一方の行に空白がない場合でも、違いを無視します。|
 |--ignore-blank-lines|行がすべて空白の変更は無視してください。|
 |-I\<regex\><br>--ignore-matching-lines=\<regex\>|すべての行が\<regex\>に一致する変更は無視してください。 このオプションは複数回指定できます。|
+|--inter-hunk-context=\<lines\>|指定された行数までの差分ハンク間のコンテキストを表示し、それによって互いに近いハンクを融合します。 デフォルトはdiff.interHunkContextで、configオプションが設定されていない場合は0です。|
 
 ※1
 * default, myers  
