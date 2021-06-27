@@ -73,6 +73,7 @@
 |--ignore-blank-lines|行がすべて空白の変更は無視してください。|
 |-I\<regex\><br>--ignore-matching-lines=\<regex\>|すべての行が\<regex\>に一致する変更は無視してください。 このオプションは複数回指定できます。|
 |--inter-hunk-context=\<lines\>|指定された行数までの差分ハンク間のコンテキストを表示し、それによって互いに近いハンクを融合します。 デフォルトはdiff.interHunkContextで、configオプションが設定されていない場合は0です。|
+|-W<br>--function-context|関数全体を各変更のコンテキスト行として表示します。 関数名は、git diffがパッチハンクヘッダーを処理するのと同じ方法で決定されます（gitattributes [5]でのカスタムハンクヘッダーの定義を参照）。|
 
 ※1
 * default, myers  
