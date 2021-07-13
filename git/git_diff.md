@@ -171,3 +171,7 @@
 「git-diff-index」、「git-diff-tree」、「git-diff-files」、「gitdiff--raw」からの出力形式は非常に似ています。
 
 これらのコマンドはすべて、2つのセットを比較します。 比較されるものは異なります：
+
+|オプション|説明|
+|:--|:--|
+|git-diff-index \<tree-ish\>|\<tree-ish\>とファイルシステム上のファイルを比較します。|
