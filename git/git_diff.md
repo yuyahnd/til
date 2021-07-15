@@ -175,3 +175,4 @@
 |オプション|説明|
 |:--|:--|
 |git-diff-index \<tree-ish\>|\<tree-ish\>とファイルシステム上のファイルを比較します。|
+|git-diff-index --cached \<tree-ish\>|\<tree-ish\>とインデックスを比較します。|
