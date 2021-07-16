@@ -176,3 +176,4 @@
 |:--|:--|
 |git-diff-index \<tree-ish\>|\<tree-ish\>とファイルシステム上のファイルを比較します。|
 |git-diff-index --cached \<tree-ish\>|\<tree-ish\>とインデックスを比較します。|
+|git-diff-tree [-r] \<tree-ish-1\> \<tree-ish-2\> [\<pattern\>…​]|2つの引数で指定されたツリーを比較します。|
