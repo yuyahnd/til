@@ -178,3 +178,6 @@
 |git-diff-index --cached \<tree-ish\>|\<tree-ish\>とインデックスを比較します。|
 |git-diff-tree [-r] \<tree-ish-1\> \<tree-ish-2\> [\<pattern\>…​]|2つの引数で指定されたツリーを比較します。|
 |git-diff-files [\<pattern\>…​]|インデックスとファイルシステム上のファイルを比較します。|
+
+
+「git-diff-tree」コマンドは、比較対象のハッシュを出力することで出力を開始します。 その後、すべてのコマンドは、変更されたファイルごとに1つの出力行を出力します。
