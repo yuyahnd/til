@@ -10,3 +10,4 @@
 |-p<br>--patch|インタラクティブなパッチ選択インターフェイスを使用して、コミットする変更を選択します。 詳細については、git-add [1]を参照してください。|
 |-C \<commit\><br>--reuse-message=\<commit\>|既存のコミットオブジェクトを取得し、コミットを作成するときにログメッセージと作成者情報（タイムスタンプを含む）を再利用します|
 |-c \<commit\><br>--reedit-message=\<commit\>|-Cと同様ですが、-cを使用するとエディターが呼び出されるため、ユーザーはコミットメッセージをさらに編集できます。|
+|--fixup=[(amend\|reword):]\<commit\>|git rebase --autosquashを適用すると、\<commit\>を「修正」する新しいコミットを作成します。 プレーン--fixup = \<commit\>は「fixup！」を作成します \<commit\>の内容を変更するが、ログメッセージは変更されないままにするcommit。 --fixup = amend：\<commit\>も同様ですが、「amend！」を作成します。 \<commit\>のログメッセージを「amend！」のログメッセージに置き換えるcommit。 専念。 --fixup = reword：\<commit\>は「修正」を作成します！ \<commit\>のログメッセージを独自のログメッセージに置き換えるが、\<commit\>の内容は変更しないcommit。|
