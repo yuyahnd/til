@@ -44,3 +44,4 @@
 |--trailer \<token>[(=\|:)\<value>]|トレーラーとして適用する必要がある（\<token>、\<value>）ペアを指定します。 （例：git commit --trailer "Signed-off-by：CO Mitter \ <committer@example.com>" --trailer "Helped-by：CO Mitter \ <committer@example.com>"は "Signed- コミットメッセージへの「off-by」トレーラーと「Helped-by」トレーラー。）trailer。*構成変数（git-interpret-trailers）を使用して、重複したトレーラーを省略するかどうかを定義できます。 各トレーラーが表示されるトレーラーの実行、およびその他の詳細。|
 |-n<br>--no-verify|このオプションは、pre-commitフックとcommit-msgフックをバイパスします。 githooks も参照してください。|
 |--allow-empty|通常、唯一の親コミットとまったく同じツリーを持つコミットを記録することは間違いであり、コマンドはそのようなコミットを行うことを防ぎます。 このオプションは安全性をバイパスし、主に外部SCMインターフェイススクリプトで使用するためのものです。|
+|--allow-empty-message|--allow-emptyと同様に、このコマンドは主に外部SCMインターフェイススクリプトで使用するためのものです。 git-commit-tree のような配管コマンドを使用せずに、空のコミットメッセージでコミットを作成できます。|
