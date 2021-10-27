@@ -32,3 +32,4 @@
 |--stdin|また、オブジェクト名を読んで、標準入力からメモを削除します（これをコマンドラインのオブジェクト名と組み合わせることができない理由はありません）。|
 |-n<br>--dry-run|何も削除しないでください。 メモが削除されるオブジェクト名を報告するだけです。|
 |-s \<strategy><br>--strategy=\<strategy>|ノートをマージするときは、指定された戦略を使用してノートの競合を解決します。 次の戦略が認識されます： "manual"（デフォルト）、 "ours"、 "theirs"、 "union"、および "cat_sort_uniq"。 このオプションは、「notes.mergeStrategy」構成設定をオーバーライドします。 各ノートマージ戦略の詳細については、以下の「ノートマージ戦略」セクションを参照してください。|
+|--commit|進行中のgitノートのマージを完了します。 .git / NOTES_MERGE_WORKTREEに保存されているgitnotesマージの競合を解決した場合は、このオプションを使用します。 これは、.git / NOTES_MERGE_WORKTREEにメモを追加することにより、git notes merge（.git / NOTES_MERGE_PARTIALに格納されている）によって作成された部分マージコミットを修正します。 .git / NOTES_MERGE_REF symrefに保存されているnotesrefは、結果のコミットに更新されます。|
