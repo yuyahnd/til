@@ -19,3 +19,4 @@
 |--recurse-submodules<br>--no-recurse-submodules|\<pathspec>がアクティブなサブモジュールを指定し、復元場所に作業ツリーが含まれている場合、このオプションが指定されている場合にのみサブモジュールが更新されます。この場合、その作業ツリーは、スーパープロジェクトに記録されたコミットとローカルの変更に復元されます。 上書きされます。 何も使用されていない場合（または--no-recurse-submodules）、サブモジュールの作業ツリーは更新されません。 git-checkout [1]と同様に、これはサブモジュールのHEADを切り離します。|
 |--overlay<br>--no-overlay|オーバーレイモードでは、コマンドは復元時にファイルを削除しません。 オーバーレイなしモードでは、-sourceツリーに表示されない追跡ファイルが削除され、<tree>と完全に一致するようになります。 デフォルトはオーバーレイなしモードです。|
 |--pathspec-from-file=\<file>|Pathspecは、コマンドライン引数の代わりに<file>で渡されます。 <file>が正確に-の場合、標準入力が使用されます。 Pathspec要素はLFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config [1]を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
+|--pathspec-file-nul|--pathspec-from-fileでのみ意味があります。 Pathspec要素はNUL文字で区切られ、他のすべての文字は文字通りに解釈されます（改行と引用符を含む）。|
