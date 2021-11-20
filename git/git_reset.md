@@ -9,3 +9,4 @@
 \<tree-ish> / \<commit>は、すべての形式でデフォルトでHEADになります。
 
 * git reset [-q] [\<tree-ish>] [--] \<pathspec>…​
+* git reset [-q] [--pathspec-from-file=\<file> [--pathspec-file-nul]] [\<tree-ish>]
