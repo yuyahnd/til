@@ -44,3 +44,4 @@
 |--pathspec-from-file=\<file>|Pathspecは、コマンドライン引数の代わりに\<file>で渡されます。 \<file>が正確に-の場合、標準入力が使用されます。 Pathspec要素は、LFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
 |--pathspec-file-nul|--pathspec-from-fileでのみ意味があります。 Pathspec要素はNUL文字で区切られ、他のすべての文字は文字通りに解釈されます（改行と引用符を含む）。|
 |--|これ以上の引数をオプションとして解釈しないでください。|
+|\<pathspec>…​|操作の影響を受けるパスを制限します。|
