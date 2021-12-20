@@ -15,3 +15,4 @@
 |--ignore-unmatch|一致するファイルがない場合でも、ステータスがゼロで終了します。|
 |--sparse|スパースチェックアウトコーンの外側でインデックスエントリを更新できるようにします。 通常、git rmは、パスがスパースチェックアウトコーン内に収まらないインデックスエントリの更新を拒否します。 詳細については、git-sparse-checkout [1]を参照してください。|
 |-q<br>--quiet|git rmは通常、削除されたファイルごとに1行（rmコマンドの形式で）を出力します。 このオプションは、その出力を抑制します。|
+|--pathspec-from-file=\<file>|Pathspecは、コマンドライン引数の代わりに\<file>で渡されます。 \<file>が正確に-の場合、標準入力が使用されます。 Pathspec要素は、LFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
