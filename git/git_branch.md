@@ -13,3 +13,4 @@
 |-m<br>--move|ブランチをそのconfigおよびreflogとともに移動/名前変更します。|
 |-M|--move--forceのショートカット。|
 |-c<br>--copy|ブランチをそのconfigおよびreflogと一緒にコピーします。|
+|-C|--copy--forceのショートカット。|
