@@ -28,3 +28,4 @@
 |--no-abbrev|省略形ではなく、出力リストに完全なsha1を表示します。|
 |-t<br>--track|新しいブランチを作成するときは、branch。<name> .remoteおよびbranch。<name> .merge構成エントリを設定して、開始点ブランチを新しいブランチの「アップストリーム」としてマークします。 この構成は、gitstatusとgitbranch-vの2つのブランチ間の関係を表示するようにgitに指示します。 さらに、新しいブランチがチェックアウトされたときに、引数なしでgitpullをアップストリームからプルするように指示します。<br><br>この動作は、開始点がリモート追跡ブランチである場合のデフォルトです。 git switch、git checkout、およびgit branchを常に--no-trackが指定されているかのように動作させる場合は、branch.autoSetupMerge構成変数をfalseに設定します。 開始点がローカルまたはリモート追跡ブランチのいずれかである場合にこの動作が必要な場合は、常にに設定します。|
 |--no-track|branch.autoSetupMerge構成変数がtrueであっても、「アップストリーム」構成をセットアップしないでください。|
+|--set-upstream|このオプションは構文がわかりにくいため、サポートされなくなりました。 代わりに--trackまたは--set-upstream-toを使用してください。|
