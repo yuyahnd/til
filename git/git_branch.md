@@ -30,3 +30,4 @@
 |--no-track|branch.autoSetupMerge構成変数がtrueであっても、「アップストリーム」構成をセットアップしないでください。|
 |--set-upstream|このオプションは構文がわかりにくいため、サポートされなくなりました。 代わりに--trackまたは--set-upstream-toを使用してください。|
 |-u \<upstream><br>--set-upstream-to=\<upstream>|\<branchname>の追跡情報を設定して、\<upstream>が\<branchname>のアップストリームブランチと見なされるようにします。 \<branchname>が指定されていない場合、デフォルトで現在のブランチになります。|
+|--unset-upstream|\<branchname>のアップストリーム情報を削除します。 ブランチが指定されていない場合、デフォルトで現在のブランチになります。|
