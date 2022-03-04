@@ -37,3 +37,4 @@
 |--overwrite-ignore<br>--no-overwrite-ignore|ブランチを切り替えるときに、無視されたファイルをサイレントに上書きします。 これがデフォルトの動作です。 --no-overwrite-ignoreを使用して、新しいブランチに無視されたファイルが含まれている場合に操作を中止します。|
 |--recurse-submodules<br>--no-recurse-submodules|--recurse-submodulesを使用すると、スーパープロジェクトに記録されたコミットに従って、すべてのアクティブなサブモジュールのコンテンツが更新されます。 サブモジュールのローカル変更が上書きされる場合、-fを使用しない限り、チェックアウトは失敗します。 何も使用されていない場合（または--no-recurse-submodules）、サブモジュールの作業ツリーは更新されません。 git-submodule [1]と同様に、これはサブモジュールのHEADを切り離します。|
 |--overlay<br>--no-overlay|デフォルトのオーバーレイモードでは、gitcheckoutがインデックスまたは作業ツリーからファイルを削除することはありません。 --no-overlayを指定すると、インデックスと作業ツリーに表示されるが\<tree-ish>には表示されないファイルが削除され、\<tree-ish>と完全に一致するようになります。|
+|--pathspec-from-file=\<file>|Pathspecは、コマンドライン引数の代わりに\<file>で渡されます。 \<file>が正確に-の場合、標準入力が使用されます。 Pathspec要素は、LFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
