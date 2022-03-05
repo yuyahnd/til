@@ -38,3 +38,4 @@
 |--recurse-submodules<br>--no-recurse-submodules|--recurse-submodulesを使用すると、スーパープロジェクトに記録されたコミットに従って、すべてのアクティブなサブモジュールのコンテンツが更新されます。 サブモジュールのローカル変更が上書きされる場合、-fを使用しない限り、チェックアウトは失敗します。 何も使用されていない場合（または--no-recurse-submodules）、サブモジュールの作業ツリーは更新されません。 git-submodule [1]と同様に、これはサブモジュールのHEADを切り離します。|
 |--overlay<br>--no-overlay|デフォルトのオーバーレイモードでは、gitcheckoutがインデックスまたは作業ツリーからファイルを削除することはありません。 --no-overlayを指定すると、インデックスと作業ツリーに表示されるが\<tree-ish>には表示されないファイルが削除され、\<tree-ish>と完全に一致するようになります。|
 |--pathspec-from-file=\<file>|Pathspecは、コマンドライン引数の代わりに\<file>で渡されます。 \<file>が正確に-の場合、標準入力が使用されます。 Pathspec要素は、LFまたはCR / LFで区切られます。 Pathspec要素は、構成変数core.quotePathで説明されているように引用できます（git-config を参照）。 --pathspec-file-nulおよびglobal--literal-pathspecsも参照してください。|
+|--pathspec-file-nul|--pathspec-from-fileでのみ意味があります。 Pathspec要素はNUL文字で区切られ、他のすべての文字は文字通りに解釈されます（改行と引用符を含む）。|
