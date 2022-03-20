@@ -13,3 +13,4 @@
 |-C \<new-branch><br>--force-create \<new-branch>|--createと似ていますが、\<new-branch>がすでに存在する場合は、\<start-point>にリセットされる点が異なります。|
 |-d<br>--detach|検査と破棄可能な実験のためにコミットに切り替えます。 詳細については、git-checkoutの「DETACHEDHEAD」セクションを参照してください。|
 |--guess<br>--no-guess|\<branch>が見つからないが、名前が一致する1つのリモート（\<remote>と呼びます）に追跡ブランチが存在する場合は、次のように扱います。`$ git switch -c <branch> --track <remote>/<branch>`|
+|-f<br>--force|--discard-changesのエイリアス。|
