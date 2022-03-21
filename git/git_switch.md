@@ -14,3 +14,4 @@
 |-d<br>--detach|検査と破棄可能な実験のためにコミットに切り替えます。 詳細については、git-checkoutの「DETACHEDHEAD」セクションを参照してください。|
 |--guess<br>--no-guess|\<branch>が見つからないが、名前が一致する1つのリモート（\<remote>と呼びます）に追跡ブランチが存在する場合は、次のように扱います。`$ git switch -c <branch> --track <remote>/<branch>`|
 |-f<br>--force|--discard-changesのエイリアス。|
+|--discard-changes|インデックスまたは作業ツリーがHEADと異なる場合でも続行します。 インデックスと作業ツリーの両方が、スイッチングターゲットに一致するように復元されます。 --recurse-submodulesが指定されている場合、サブモジュールの内容もスイッチングターゲットに一致するように復元されます。 これは、ローカルの変更を破棄するために使用されます。|
