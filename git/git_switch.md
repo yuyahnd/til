@@ -23,3 +23,4 @@
 |--no-track|branch.autoSetupMerge構成変数がtrueであっても、「アップストリーム」構成をセットアップしないでください。|
 |--orphan \<new-branch>|\<new-branch>という名前の新しい孤立したブランチを作成します。 追跡されたファイルはすべて削除されます。|
 |--ignore-other-worktrees|必要な参照が別のワークツリーによってすでにチェックアウトされている場合、gitスイッチは拒否します。 このオプションを使用すると、とにかく参照をチェックアウトできます。 つまり、refは複数のワークツリーで保持できます。|
+|--recurse-submodules<br>--no-recurse-submodules|--recurse-submodulesを使用すると、スーパープロジェクトに記録されたコミットに従って、すべてのアクティブなサブモジュールのコンテンツが更新されます。 何も使用されていない場合（または--no-recurse-submodules）、サブモジュールの作業ツリーは更新されません。 git-submodule と同様に、これはサブモジュールのHEADを切り離します。|
