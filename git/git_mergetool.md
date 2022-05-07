@@ -12,3 +12,4 @@
 |--prompt|マージ解決プログラムを呼び出す前にプロンプトを表示して、ユーザーにパスをスキップする機会を与えます。|
 |-g<br>--gui|-gまたは--guiオプションを指定してgit-mergetoolを呼び出すと、デフォルトのマージツールがmerge.toolではなく構成済みのmerge.guitool変数から読み取られます。 merge.guitoolが設定されていない場合、merge.toolで構成されたツールにフォールバックします。|
 |--no-gui|これにより、以前の-gまたは--gui設定が上書きされ、デフォルトのマージツールが設定されたmerge.tool変数から読み取られます。|
+|-O\<orderfile>|<orderfile>で指定された順序でファイルを処理します。これには、1行に1つのシェルグロブパターンがあります。 これは、diff.orderFile構成変数をオーバーライドします（git-config を参照）。 diff.orderFileをキャンセルするには、-O / dev/nullを使用します。|
