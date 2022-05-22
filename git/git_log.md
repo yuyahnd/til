@@ -19,3 +19,4 @@
 |-\<number><br>-n \<number><br>--max-count=\<number>|出力するコミットの数を制限します。|
 |--skip=\<number>|コミット出力の表示を開始する前に、コミット数をスキップします。|
 |--since=\<date>--after=\<date>|特定の日付よりも新しいコミットを表示します。|
+|--until=\<date>--before=\<date>|特定の日付より古いコミットを表示します。|
