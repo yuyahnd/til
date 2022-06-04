@@ -33,3 +33,4 @@
 |--remove-empty|指定されたパスがツリーから消えたら停止します。|
 |--merges|マージコミットのみを印刷します。 これは、--min-parents=2とまったく同じです。|
 |--no-merges|複数の親を持つコミットを印刷しないでください。 これは、-max-parents=1とまったく同じです。|
+|--min-parents=\<number><br>--max-parents=\<number><br>--no-min-parents<br>--no-max-parents|少なくとも（または多くても）多くの親コミットがあるコミットのみを表示します。 特に、-max-parents = 1は--no-mergesと同じであり、-min-parents=2は--mergesと同じです。 --max-parents = 0はすべてのルートコミットを提供し、-min-parents=3はすべてのタコのマージを提供します。|
