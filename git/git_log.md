@@ -45,3 +45,4 @@
 |--exclude=\<glob-pattern>|次の--all、-branches、-tags、-remotes、または--globが他の方法で考慮する<glob-pattern>に一致する参照を含めないでください。 このオプションを繰り返すと、次の--all、-branches、-tags、-remotes、または--globオプションまで除外パターンが累積されます（他のオプションまたは引数は累積パターンをクリアしません）。|
 |--reflog|reflogsで言及されているすべてのオブジェクトがコマンドラインに\<commit>としてリストされているかのように見せかけます。|
 |--alternate-refs|代替リポジトリの参照ヒントとして言及されているすべてのオブジェクトがコマンドラインにリストされているかのように見せかけます。 代替リポジトリは、オブジェクトディレクトリがobjects / info/alternatesで指定されているリポジトリです。 含まれるオブジェクトのセットは、core.alternateRefsCommandなどによって変更できます。git-configを参照してください。|
+|--single-worktree|デフォルトでは、複数のオプションがある場合、すべての作業ツリーは次のオプションによって検査されます（git-worktree を参照）：-all、-reflog、および--indexed-objects。 このオプションは、現在の作業ツリーのみを調べるように強制します。|
