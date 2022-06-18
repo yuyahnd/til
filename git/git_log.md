@@ -47,3 +47,4 @@
 |--alternate-refs|代替リポジトリの参照ヒントとして言及されているすべてのオブジェクトがコマンドラインにリストされているかのように見せかけます。 代替リポジトリは、オブジェクトディレクトリがobjects / info/alternatesで指定されているリポジトリです。 含まれるオブジェクトのセットは、core.alternateRefsCommandなどによって変更できます。git-configを参照してください。|
 |--single-worktree|デフォルトでは、複数のオプションがある場合、すべての作業ツリーは次のオプションによって検査されます（git-worktree を参照）：-all、-reflog、および--indexed-objects。 このオプションは、現在の作業ツリーのみを調べるように強制します。|
 |--ignore-missing|入力に無効なオブジェクト名が含まれている場合は、不正な入力が行われていないかのように見せかけてください。|
+|--bisect|悪い二分法refrefs/ bisect / badがリストされているかのように、そしてコマンドラインに--notと良い二分法refs refs / bisect /good-*が続いているかのように見せかけます。|
