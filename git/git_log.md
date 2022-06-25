@@ -53,3 +53,4 @@
 |--cherry-pick|コミットのセットが対称的な違いで制限されている場合、「反対側」の別のコミットと同じ変更を導入するコミットを省略します。|
 |--left-only<br>--right-only|リストは、対称的な違いのそれぞれの側でのみコミットします。つまり、\<respとマークされるものだけです。 >--left-rightによって。|
 |--cherry|--right-only--cherry-mark--no-mergesの同義語。 出力を私たちの側のコミットに制限し、フォークされた履歴の反対側に適用されたものをgit log --cherryアップストリーム...mybranchでマークするのに役立ちます。これは、gitcherryアップストリームmybranchと同様です。|
+|-g<br>--walk-reflogs|コミットの祖先チェーンをたどる代わりに、reflogエントリを最新のものから古いものへと歩きます。 このオプションを使用する場合、除外するコミットを指定することはできません（つまり、^ commit、commit1..commit2、およびcommit1 ... commit2表記は使用できません）。|
