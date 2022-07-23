@@ -80,3 +80,4 @@
 |--pretty[=\<format>]<br>--format=\<format>|コミットログの内容を特定の形式できれいに印刷します。\<format>は、oneline、short、medium、full、fuller、reference、email、raw、format：\<string>、tformat：\<string>のいずれかになります。 \<format>が上記のいずれでもなく、％placeholderが含まれている場合、-pretty = tformat：\<format>が指定されたかのように機能します。|
 |--abbrev-commit|40バイトの16進コミットオブジェクト名全体を表示する代わりに、オブジェクトに一意の名前を付けるプレフィックスを表示します。 "--abbrev = \<n>"（表示されている場合はdiff出力も変更します）オプションを使用して、プレフィックスの最小長を指定できます。|
 |--no-abbrev-commit|完全な40バイトの16進コミットオブジェクト名を表示します。 これにより、明示的または「--oneline」などの他のオプションによって暗示される--abbrev-commitが無効になります。 また、log.abbrevCommit変数をオーバーライドします。|
+|--oneline|これは、「-pretty =oneline--abbrev-commit」を一緒に使用するための省略形です。|
