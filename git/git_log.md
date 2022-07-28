@@ -85,3 +85,5 @@
 |--expand-tabs=\<n><br>--expand-tabs<br>--no-expand-tabs|出力に表示する前に、ログメッセージでタブ展開を実行します（各タブを、\<n>の倍数である次の表示列に入力するのに十分なスペースで置き換えます）。 --expand-tabsは--expand-tabs=8の省略形であり、-no-expand-tabsは--expand-tabs = 0の省略形であり、タブの展開を無効にします。|
 |--notes[=\<ref>]|コミットログメッセージを表示するときに、コミットに注釈を付けるメモ（git-notes を参照）を表示します。 これは、コマンドラインに--pretty、-format、または--onelineオプションが指定されていない場合の、git log、git show、およびgitwhatchangedコマンドのデフォルトです。|
 |--no-notes|メモを表示しないでください。 これは、メモが表示されるメモ参照のリストをリセットすることにより、上記の--notesオプションを無効にします。 オプションは、コマンドラインで指定された順序で解析されます。 「--notes--notes=foo --no-notes --notes = bar」は、「refs / notes/bar」からのメモのみを表示します。|
+|--show-notes[=\<ref>]<br>--[no-]standard-notes|これらのオプションは非推奨です。 代わりに、上記の--notes/-no-notesオプションを使用してください。|
+|--show-signature|署名をgpg--verifyに渡して、署名されたコミットオブジェクトの有効性を確認し、出力を表示します。|
