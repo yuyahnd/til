@@ -87,3 +87,4 @@
 |--no-notes|メモを表示しないでください。 これは、メモが表示されるメモ参照のリストをリセットすることにより、上記の--notesオプションを無効にします。 オプションは、コマンドラインで指定された順序で解析されます。 「--notes--notes=foo --no-notes --notes = bar」は、「refs / notes/bar」からのメモのみを表示します。|
 |--show-notes[=\<ref>]<br>--[no-]standard-notes|これらのオプションは非推奨です。 代わりに、上記の--notes/-no-notesオプションを使用してください。|
 |--show-signature|署名をgpg--verifyに渡して、署名されたコミットオブジェクトの有効性を確認し、出力を表示します。|
+|--relative-date|--date=relativeの同義語。|
