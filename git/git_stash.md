@@ -16,3 +16,4 @@
 |--pathspec-from-file=\<file>|このオプションは、プッシュ コマンドに対してのみ有効です。<br><br>パススペックは、コマンドライン引数の代わりに \<file> で渡されます。 \<file> が正確に - の場合、標準入力が使用されます。 Pathspec 要素は、LF または CR/LF で区切られます。 pathspec 要素は、構成変数 core.quotePath で説明されているように引用符で囲むことができます (git-config を参照)。 --pathspec-file-nul およびグローバル --literal-pathspecs も参照してください。|
 |--pathspec-file-nul|このオプションは、プッシュ コマンドに対してのみ有効です。<br><br>--pathspec-from-file でのみ意味があります。 Pathspec 要素は NUL 文字で区切られ、他のすべての文字は文字どおりに解釈されます (改行と引用符を含む)。|
 |-q<br>--quiet|このオプションは、apply、drop、pop、push、save、store コマンドに対してのみ有効です。<br><br>静かに、フィードバック メッセージを抑制します。|
+|--|このオプションは、プッシュ コマンドに対してのみ有効です。<br><br>曖昧さをなくすために、pathspec をオプションから分離します。|
