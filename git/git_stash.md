@@ -2,6 +2,13 @@
 
 [Git - git-stash Documentation](https://git-scm.com/docs/git-stash)
 
+
+## コマンド
+
+- push [-p|--patch] [-S|--staged] [-k|--[no-]keep-index] [-u|--include-untracked] [-a|--all] [-q|--quiet] [-m|--message <message>] [--pathspec-from-file=<file> [--pathspec-file-nul]] [--] [<pathspec>…​]  
+ローカルの変更を新しいスタッシュ エントリに保存し、それらを HEAD (作業ツリーとインデックス内) にロールバックします。 <message> 部分はオプションであり、隠し状態とともに説明を提供します。<br><br>スナップショットをすばやく作成するには、「プッシュ」を省略できます。 このモードでは、スペルミスのあるサブコマンドが不要な stash エントリを作成するのを防ぐために、オプション以外の引数は許可されません。 これに対する 2 つの例外は、stash push -p のエイリアスとして機能する stash -p と、あいまいさをなくすために二重ハイフンの後に許可される pathspec 要素です。
+
+
 ## オプション
 
 |オプション|説明|
