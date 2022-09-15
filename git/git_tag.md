@@ -32,3 +32,4 @@
 |--create-reflog|タグの reflog を作成します。 タグの reflog をグローバルに有効にするには、git-config の core.logAllRefUpdates を参照してください。 否定形式 --no-create-reflog は、以前の --create-reflog をオーバーライドするだけですが、現在、core.logAllRefUpdates の設定を否定しません。|
 |--format=\<format>|表示されているタグ ref とそれが指すオブジェクトから %(fieldname) を補間する文字列。 形式は git-for-each-ref と同じです。 指定しない場合、デフォルトは %(refname:strip=2) になります。|
 |\<tagname>|作成、削除、または説明するタグの名前。 新しいタグ名は、git-check-ref-format で定義されたすべてのチェックに合格する必要があります。 これらのチェックの中には、タグ名で使用できる文字を制限するものがあります。|
+|\<commit><br>\<object>|新しいタグが参照するオブジェクトで、通常はコミットです。 デフォルトはHEADです。|
