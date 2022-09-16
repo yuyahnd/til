@@ -2,6 +2,10 @@
 
 [Git - git-tag Documentation](https://git-scm.com/docs/git-tag)
 
+```
+git tag [-a | -s | -u <keyid>] [-f] [-m <msg> | -F <file>] [-e]
+	<tagname> [<commit> | <object>]
+```
 
 ## オプション
 
