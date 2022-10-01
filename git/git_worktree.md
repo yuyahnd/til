@@ -22,3 +22,4 @@
 |-b \<new-branch><br>-B \<new-branch>|add を使用して、\<commit-ish> で始まる <new-branch> という名前の新しいブランチを作成し、\<new-branch> を新しいワークツリーにチェックアウトします。 \<commit-ish> を省略すると、デフォルトで HEAD になります。 デフォルトでは、 -b は、ブランチが既に存在する場合、新しいブランチの作成を拒否します。 -B はこのセーフガードをオーバーライドし、\<new-branch> を \<commit-ish> にリセットします。|
 |-d<br>--detach|add を使用して、新しいワークツリーで HEAD をデタッチします。 git-checkout の「DETACHED HEAD」を参照してください。|
 |--[no-]checkout|デフォルトでは、追加チェックアウト <commit-ish> ですが、 --no-checkout を使用してチェックアウトを抑制し、sparse-checkout の構成などのカスタマイズを行うことができます。 git-read-tree の「スパース チェックアウト」を参照してください。|
+|--[no-]guess-remote|worktree add \<path> を使用し、\<commit-ish> を使用せずに、HEAD から新しいブランチを作成する代わりに、\<path> のベース名と一致する正確に 1 つのリモートに追跡ブランチが存在する場合、新しいブランチをリモート追跡に基づいて作成します。 リモート追跡ブランチを新しいブランチの「上流」としてマークします。|
