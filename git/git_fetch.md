@@ -22,3 +22,4 @@
 |-f<br>--force|\<src>:\<dst> refspec で git fetch を使用すると、以下の \<refspec> の部分で説明するように、ローカル ブランチの更新を拒否する場合があります。 このオプションは、そのチェックをオーバーライドします。|
 |-k<br>--keep|ダウンロードしたパックを保持します。|
 |--multiple|複数の \<repository> および \<group> 引数を指定できるようにします。 \<refspec> は指定できません。|
+|--[no-]auto-maintenance<br>--[no-]auto-gc|最後に git maintenance run --auto を実行して、必要に応じてリポジトリの自動メンテナンスを実行します。 (--[no-]auto-gc は同義語です。) これはデフォルトで有効になっています。|
