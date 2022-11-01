@@ -24,3 +24,4 @@
 |--multiple|複数の \<repository> および \<group> 引数を指定できるようにします。 \<refspec> は指定できません。|
 |--[no-]auto-maintenance<br>--[no-]auto-gc|最後に git maintenance run --auto を実行して、必要に応じてリポジトリの自動メンテナンスを実行します。 (--[no-]auto-gc は同義語です。) これはデフォルトで有効になっています。|
 |--[no-]write-commit-graph|フェッチ後にコミットグラフを書き込みます。 これは、構成設定の fetch.writeCommitGraph をオーバーライドします。|
+|--prefetch|構成された refspec を変更して、すべての参照を refs/prefetch/ 名前空間に配置します。 git-maintenance のプリフェッチ タスクを参照してください。|
