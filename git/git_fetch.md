@@ -35,3 +35,4 @@
 |-j<br>--jobs=\<n>|すべての形式のフェッチに使用される並列の子の数。<br><br>--multiple オプションが指定された場合、異なるリモートが並行して取得されます。 複数のサブモジュールがフェッチされる場合、それらは並行してフェッチされます。 それらを個別に制御するには、構成設定 fetch.parallel および submodule.fetchJobs を使用します (git-config を参照)。<br><br>通常、並列再帰およびマルチリモート フェッチは高速になります。 デフォルトでは、フェッチは並列ではなく順次実行されます。|
 |--no-recurse-submodules|サブモジュールの再帰的フェッチを無効にします (これは、 --recurse-submodules=no オプションを使用するのと同じ効果があります)。|
 |--set-upstream|リモートが正常に取得された場合は、引数なしの git-pull およびその他のコマンドで使用されるアップストリーム (追跡) 参照を追加します。 詳細については、git-config の branch.\<name>.merge と branch.\<name>.remote を参照してください。|
+|--submodule-prefix=\<path>|「Fetching submodule foo」などの情報メッセージに出力されるパスの先頭に \<path> を追加します。 このオプションは、サブモジュールを再帰するときに内部的に使用されます。|
