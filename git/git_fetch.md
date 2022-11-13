@@ -36,3 +36,4 @@
 |--no-recurse-submodules|サブモジュールの再帰的フェッチを無効にします (これは、 --recurse-submodules=no オプションを使用するのと同じ効果があります)。|
 |--set-upstream|リモートが正常に取得された場合は、引数なしの git-pull およびその他のコマンドで使用されるアップストリーム (追跡) 参照を追加します。 詳細については、git-config の branch.\<name>.merge と branch.\<name>.remote を参照してください。|
 |--submodule-prefix=\<path>|「Fetching submodule foo」などの情報メッセージに出力されるパスの先頭に \<path> を追加します。 このオプションは、サブモジュールを再帰するときに内部的に使用されます。|
+|--recurse-submodules-default=[yes\|on-demand]|このオプションは、 --recurse-submodules オプションに負でないデフォルト値を一時的に提供するために内部的に使用されます。 fetch のサブモジュール再帰を構成する他のすべての方法 (gitmodules や git-config での設定など) は、 --[no-]recurse-submodules を直接指定する場合と同様に、このオプションをオーバーライドします。|
