@@ -38,3 +38,4 @@
 |--submodule-prefix=\<path>|「Fetching submodule foo」などの情報メッセージに出力されるパスの先頭に \<path> を追加します。 このオプションは、サブモジュールを再帰するときに内部的に使用されます。|
 |--recurse-submodules-default=[yes\|on-demand]|このオプションは、 --recurse-submodules オプションに負でないデフォルト値を一時的に提供するために内部的に使用されます。 fetch のサブモジュール再帰を構成する他のすべての方法 (gitmodules や git-config での設定など) は、 --[no-]recurse-submodules を直接指定する場合と同様に、このオプションをオーバーライドします。|
 |-u<br>--update-head-ok|デフォルトでは、git fetch は現在のブランチに対応する head の更新を拒否します。 このフラグはチェックを無効にします。 これは、git pull が git fetch と通信するための純粋な内部使用のためのものであり、独自の Porcelain を実装しない限り、使用することは想定されていません。|
+|--upload-pack \<upload-pack>|与えられ、フェッチ元のリポジトリが git fetch-pack によって処理される場合、 --exec=\<upload-pack> がコマンドに渡され、相手側で実行されるコマンドのデフォルト以外のパスを指定します。|
