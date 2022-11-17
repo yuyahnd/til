@@ -40,3 +40,4 @@
 |-u<br>--update-head-ok|デフォルトでは、git fetch は現在のブランチに対応する head の更新を拒否します。 このフラグはチェックを無効にします。 これは、git pull が git fetch と通信するための純粋な内部使用のためのものであり、独自の Porcelain を実装しない限り、使用することは想定されていません。|
 |--upload-pack \<upload-pack>|与えられ、フェッチ元のリポジトリが git fetch-pack によって処理される場合、 --exec=\<upload-pack> がコマンドに渡され、相手側で実行されるコマンドのデフォルト以外のパスを指定します。|
 |-q<br>--quiet|--quiet を git-fetch-pack に渡し、内部で使用されるその他の git コマンドを無音にします。 進行状況は標準エラー ストリームには報告されません。|
+|-v<br>--verbose|冗長にします。|
