@@ -45,3 +45,4 @@
 |-o \<option><br>--server-option=\<option>|プロトコル バージョン 2 を使用して通信する場合、指定された文字列をサーバーに送信します。指定された文字列には、NUL または LF 文字を含めることはできません。 未知のものを含むサーバーオプションのサーバーの処理は、サーバー固有です。 複数の --server-option=\<option> が指定されている場合、それらはすべて、コマンド ラインにリストされている順序で反対側に送信されます。|
 |--show-forced-updates|デフォルトでは、git はフェッチ中にブランチが強制的に更新されるかどうかをチェックします。 これは fetch.showForcedUpdates で無効にすることができますが、 --show-forced-updates オプションはこのチェックが行われることを保証します。 git-config を参照してください。|
 |--no-show-forced-updates|デフォルトでは、git はフェッチ中にブランチが強制的に更新されるかどうかをチェックします。 --no-show-forced-updates を渡すか、fetch.showForcedUpdates を false に設定して、パフォーマンス上の理由からこのチェックをスキップします。 git-pull 中に使用された場合、 --ff-only オプションは、早送り更新を試行する前に強制更新をチェックします。 git-config を参照してください。|
+|-4<br>--ipv4|IPv6 アドレスを無視して、IPv4 アドレスのみを使用します。|
