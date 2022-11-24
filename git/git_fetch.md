@@ -46,3 +46,4 @@
 |--show-forced-updates|デフォルトでは、git はフェッチ中にブランチが強制的に更新されるかどうかをチェックします。 これは fetch.showForcedUpdates で無効にすることができますが、 --show-forced-updates オプションはこのチェックが行われることを保証します。 git-config を参照してください。|
 |--no-show-forced-updates|デフォルトでは、git はフェッチ中にブランチが強制的に更新されるかどうかをチェックします。 --no-show-forced-updates を渡すか、fetch.showForcedUpdates を false に設定して、パフォーマンス上の理由からこのチェックをスキップします。 git-pull 中に使用された場合、 --ff-only オプションは、早送り更新を試行する前に強制更新をチェックします。 git-config を参照してください。|
 |-4<br>--ipv4|IPv6 アドレスを無視して、IPv4 アドレスのみを使用します。|
+|-6<br>--ipv6|IPv4 アドレスを無視して、IPv6 アドレスのみを使用します。|
