@@ -45,3 +45,4 @@
 |--negotiate-only|サーバーから何も取得せず、代わりに提供された --negotiation-tip=* 引数の祖先を出力します。これはサーバーと共通です。<br><br>これは --recurse-submodules=[yes\|on-demand] と互換性がありません。 内部的には、これは push.negotiate オプションを実装するために使用されます。git-config を参照してください。|
 |--dry-run|変更を加えることなく、何が行われるかを示します。|
 |-f<br>--force|\<src>:\<dst> refspec で git fetch を使用すると、git-fetch ドキュメントの \<refspec> 部分で説明されているように、ローカル ブランチの更新を拒否する場合があります。 このオプションは、そのチェックをオーバーライドします。|
+|-k<br>--keep|ダウンロードしたパックを保持します。|
