@@ -46,3 +46,4 @@
 |--dry-run|変更を加えることなく、何が行われるかを示します。|
 |-f<br>--force|\<src>:\<dst> refspec で git fetch を使用すると、git-fetch ドキュメントの \<refspec> 部分で説明されているように、ローカル ブランチの更新を拒否する場合があります。 このオプションは、そのチェックをオーバーライドします。|
 |-k<br>--keep|ダウンロードしたパックを保持します。|
+|--prefetch|構成された refspec を変更して、すべての参照を refs/prefetch/ 名前空間に配置します。 git-maintenance のプリフェッチ タスクを参照してください。|
