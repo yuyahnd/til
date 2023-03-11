@@ -16,3 +16,4 @@
 |--notes[=\<ref>]|コミット ログ メッセージを表示するときに、コミットに注釈を付けるメモ (git-notes を参照) を表示します。 これは、コマンド ラインで --pretty、--format、または --oneline オプションが指定されていない場合の git log、git show、および git whatchanged コマンドのデフォルトです。|
 |--no-notes|メモを表示しない。 これは、メモが表示されるメモ参照のリストをリセットすることにより、上記の --notes オプションを無効にします。 オプションは、コマンド ラインで指定された順序で解析されます。 「--notes --notes=foo --no-notes --notes=bar」は、「refs/notes/bar」からのメモのみを表示します。|
 |--show-notes[=\<ref>]<br>--[no-]standard-notes|これらのオプションは非推奨です。 代わりに上記の --notes/--no-notes オプションを使用してください。|
+|--show-signature|署名を gpg --verify に渡して、署名されたコミット オブジェクトの有効性を確認し、出力を表示します。|
