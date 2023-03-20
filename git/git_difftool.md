@@ -13,3 +13,4 @@
 |--skip-to=\<file>|指定されたパスの差分の表示を開始し、その前のすべてのパスをスキップします。|
 |-t \<tool><br>--tool=\<tool>|\<tool> で指定された差分ツールを使用します。 有効な値には、emerge、kompare、meld、および vimdiff が含まれます。 有効な \<tool> 設定のリストについては、 git difftool --tool-help を実行してください。|
 |--tool-help|--tool で使用できる差分ツールのリストを出力します。|
+|--[no-]symlinks|git difftool のデフォルトの動作は、 --dir-diff モードで実行すると作業ツリーへのシンボリック リンクを作成することであり、比較の右側は作業ツリー内のファイルと同じ内容になります。<br><br>--no-symlinks を指定すると、代わりにコピーを作成するように git difftool に指示します。 --no-symlinks が Windows のデフォルトです。|
