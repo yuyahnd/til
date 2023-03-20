@@ -12,3 +12,4 @@
 |--rotate-to=\<file>|指定されたパスの差分の表示を開始します。パスが最後に移動して出力される前のパスです。|
 |--skip-to=\<file>|指定されたパスの差分の表示を開始し、その前のすべてのパスをスキップします。|
 |-t \<tool><br>--tool=\<tool>|\<tool> で指定された差分ツールを使用します。 有効な値には、emerge、kompare、meld、および vimdiff が含まれます。 有効な \<tool> 設定のリストについては、 git difftool --tool-help を実行してください。|
+|--tool-help|--tool で使用できる差分ツールのリストを出力します。|
