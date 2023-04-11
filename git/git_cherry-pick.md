@@ -22,3 +22,9 @@
 |--strategy=\<strategy>|指定されたマージ戦略を使用します。 一度だけ使用してください。 詳細については、git-merge の MERGE STRATEGIES セクションを参照してください。|
 |-X\<option><br>--strategy-option=\<option>|マージ戦略固有のオプションをマージ戦略に渡します。 詳細については、git-merge を参照してください。|
 |--rerere-autoupdate<br>--no-rerere-autoupdate|rerere メカニズムが現在の競合で記録された解決を再利用して作業ツリー内のファイルを更新した後、解決の結果でインデックスも更新できるようにします。 --no-rerere-autoupdate は、別の git add で結果をインデックスにコミットする前に、rerere が行ったことを再確認し、潜在的なミスマージをキャッチするための良い方法です。|
+
+## SEQUENCER SUBCOMMANDS
+
+|オプション|説明|
+|:--|:--|
+|--continue|.git/sequencer の情報を使用して、進行中の操作を続行します。 失敗したチェリーピックまたはリバートで競合を解決した後に続行するために使用できます。|
