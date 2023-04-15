@@ -36,3 +36,6 @@
 
 * git cherry-pick master  
     master ブランチの先端でコミットによって導入された変更を適用し、この変更で新しいコミットを作成します。
+* git cherry-pick ..master
+* git cherry-pick ^HEAD master  
+    master の先祖であるが HEAD の祖先ではないすべてのコミットによって導入された変更を適用して、新しいコミットを生成します。
