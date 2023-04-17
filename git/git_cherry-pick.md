@@ -39,3 +39,6 @@
 * git cherry-pick ..master
 * git cherry-pick ^HEAD master  
     master の先祖であるが HEAD の祖先ではないすべてのコミットによって導入された変更を適用して、新しいコミットを生成します。
+* git cherry-pick maint next ^master
+* git cherry-pick maint master..next  
+    maint または next の祖先であるが master またはその祖先のいずれでもないすべてのコミットによって導入された変更を適用します。 後者は、maint および master と next の間のすべてを意味するわけではないことに注意してください。 具体的には、maint が master に含まれている場合は使用されません。
