@@ -33,3 +33,6 @@
 * -X \<strategy-option>
 * --strategy-option=\<strategy-option>  
     \<strategy-option> をマージ戦略に渡します。 これは --merge を意味し、戦略が指定されていない場合は -s ort を意味します。 上記の -m オプションのように、私たちのものと彼らのものとが逆になっていることに注意してください。<br><br>以下の INCOMPATIBLE OPTIONS も参照してください。
+* --rerere-autoupdate
+* --no-rerere-autoupdate  
+    rerere メカニズムが現在の競合で記録された解決を再利用して作業ツリー内のファイルを更新した後、解決の結果でインデックスも更新できるようにします。 --no-rerere-autoupdate は、別の git add で結果をインデックスにコミットする前に、rerere が行ったことを再確認し、潜在的なミスマージをキャッチするための良い方法です。
