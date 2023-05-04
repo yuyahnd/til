@@ -30,3 +30,6 @@
 * -s \<strategy>
 * --strategy=\<strategy>  
     デフォルトの ort の代わりに、指定されたマージ戦略を使用します。 これは --merge を意味します。<br><br>git rebase は、指定された戦略を使用して \<upstream> ブランチの最上位の作業ブランチから各コミットを再生するため、ours 戦略を使用すると、\<branch> からすべてのパッチが単純に空になりますが、これはほとんど意味がありません。<br><br>以下の INCOMPATIBLE OPTIONS も参照してください。
+* -X \<strategy-option>
+* --strategy-option=\<strategy-option>  
+    \<strategy-option> をマージ戦略に渡します。 これは --merge を意味し、戦略が指定されていない場合は -s ort を意味します。 上記の -m オプションのように、私たちのものと彼らのものとが逆になっていることに注意してください。<br><br>以下の INCOMPATIBLE OPTIONS も参照してください。
