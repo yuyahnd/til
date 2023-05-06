@@ -40,3 +40,6 @@
 * --gpg-sign[=<keyid>]
 * --no-gpg-sign  
     GPG署名コミット。 keyid 引数はオプションで、デフォルトはコミッター ID です。 指定する場合は、スペースなしでオプションに貼り付ける必要があります。 --no-gpg-sign は、commit.gpgSign 構成変数と以前の --gpg-sign の両方を取り消すのに役立ちます。
+* -q
+* --quiet  
+    --no-stat を意味します。
