@@ -36,3 +36,7 @@
 * --rerere-autoupdate
 * --no-rerere-autoupdate  
     rerere メカニズムが現在の競合で記録された解決を再利用して作業ツリー内のファイルを更新した後、解決の結果でインデックスも更新できるようにします。 --no-rerere-autoupdate は、別の git add で結果をインデックスにコミットする前に、rerere が行ったことを再確認し、潜在的なミスマージをキャッチするための良い方法です。
+* -S[<keyid>]
+* --gpg-sign[=<keyid>]
+* --no-gpg-sign  
+    GPG署名コミット。 keyid 引数はオプションで、デフォルトはコミッター ID です。 指定する場合は、スペースなしでオプションに貼り付ける必要があります。 --no-gpg-sign は、commit.gpgSign 構成変数と以前の --gpg-sign の両方を取り消すのに役立ちます。
