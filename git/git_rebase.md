@@ -43,3 +43,6 @@
 * -q
 * --quiet  
     --no-stat を意味します。
+* -v
+* --verbose  
+    冗長にします。 --stat を意味します。
