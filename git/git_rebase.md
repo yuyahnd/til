@@ -46,3 +46,5 @@
 * -v
 * --verbose  
     冗長にします。 --stat を意味します。
+* --stat  
+    最後のリベース以降にアップストリームで変更された内容の diffstat を表示します。 diffstat は、構成オプション rebase.stat によっても制御されます。
