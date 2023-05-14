@@ -61,3 +61,6 @@
 * --force-rebase
 * -f  
     変更されていないコミットを早送りするのではなく、リベースされたすべてのコミットを個別に再生します。 これにより、リベースされたブランチの履歴全体が新しいコミットで構成されることが保証されます。<br><br>このオプションは、トピック ブランチのマージを元に戻した後に役立つ場合があります。このオプションは、新しいコミットでトピック ブランチを再作成するため、「バージョンを元に戻す」必要なく、正常に再マージできます (「revert-a-faulty-merge How-To」を参照)。 詳細）。
+* --fork-point
+* --no-fork-point  
+    どのコミットが \<branch> によって導入されたかを計算するときに、reflog を使用して、\<upstream> と \<branch> の間のより適切な共通祖先を見つけます。<br><br>--fork-point がアクティブな場合、リベースするコミットのセットを計算するために \<upstream> の代わりに fork_point が使用されます。fork_point は git merge-base --fork-point \<upstream> \<branch> コマンドの結果です ( git-merge-base[1] を参照してください)。 fork_point が空になった場合、\<upstream> がフォールバックとして使用されます。<br><br>コマンドラインで \<upstream> または --keep-base が指定された場合、デフォルトは --no-fork-point になり、それ以外の場合はデフォルトは --fork-point になります。 git-config の rebase.forkpoint も参照してください。<br><br>ブランチが \<upstream> に基づいていたが、\<upstream> が巻き戻され、ブランチに削除されたコミットが含まれている場合、このオプションを --keep-base とともに使用して、ブランチからそれらのコミットを削除できます。<br><br>以下の「互換性のないオプション」も参照してください。
