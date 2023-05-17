@@ -66,3 +66,5 @@
     どのコミットが \<branch> によって導入されたかを計算するときに、reflog を使用して、\<upstream> と \<branch> の間のより適切な共通祖先を見つけます。<br><br>--fork-point がアクティブな場合、リベースするコミットのセットを計算するために \<upstream> の代わりに fork_point が使用されます。fork_point は git merge-base --fork-point \<upstream> \<branch> コマンドの結果です ( git-merge-base[1] を参照してください)。 fork_point が空になった場合、\<upstream> がフォールバックとして使用されます。<br><br>コマンドラインで \<upstream> または --keep-base が指定された場合、デフォルトは --no-fork-point になり、それ以外の場合はデフォルトは --fork-point になります。 git-config の rebase.forkpoint も参照してください。<br><br>ブランチが \<upstream> に基づいていたが、\<upstream> が巻き戻され、ブランチに削除されたコミットが含まれている場合、このオプションを --keep-base とともに使用して、ブランチからそれらのコミットを削除できます。<br><br>以下の「互換性のないオプション」も参照してください。
 * --ignore-whitespace  
     違いを調整する場合は、空白の違いを無視してください。 現在、各バックエンドはこの動作の近似を実装しています。
+    * apply backend  
+        パッチを適用するときは、コンテキスト行の空白の変更を無視してください。 残念ながら、これは、パッチによって置き換えられる「古い」行が既存のファイルと空白のみが異なる場合、パッチ適用は成功する代わりにマージ競合が発生することを意味します。
