@@ -91,3 +91,7 @@
     ```
     git rebase -i --exec "cmd1 && cmd2 && ..."
     ```
+    or by giving more than one --exec:  
+    ```
+    git rebase -i --exec "cmd1" --exec "cmd2" --exec ...
+    ```
