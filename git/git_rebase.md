@@ -104,3 +104,6 @@
 * --autostash
 * --no-autostash  
     操作の開始前に一時的なスタッシュ エントリを自動的に作成し、操作の終了後にそれを適用します。 これは、ダーティなワークツリーに対してリベースを実行できることを意味します。 ただし、使用には注意してください。リベースが成功した後の最終的な stash アプリケーションでは、重大な競合が発生する可能性があります。
+* --reschedule-failed-exec
+* --no-reschedule-failed-exec  
+    失敗した実行コマンドを自動的に再スケジュールします。 これは対話モード (または --exec オプションが指定された場合) でのみ意味を持ちます。<br><br>このオプションはリベースの開始後に適用されますが、このオプションは、rebase.rescheduleFailedExec 設定 (以下の git-config[1] または「CONFIGURATION」を参照) またはこのオプションが提供されているかどうかに基づいて、開始時にリベース全体に設定されます。 そうしないと、開始時の明示的な --no-reschedule-failed-exec は、rebase.rescheduleFailedExec=true 設定の存在によって上書きされます。
