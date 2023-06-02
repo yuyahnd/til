@@ -107,3 +107,6 @@
 * --reschedule-failed-exec
 * --no-reschedule-failed-exec  
     失敗した実行コマンドを自動的に再スケジュールします。 これは対話モード (または --exec オプションが指定された場合) でのみ意味を持ちます。<br><br>このオプションはリベースの開始後に適用されますが、このオプションは、rebase.rescheduleFailedExec 設定 (以下の git-config[1] または「CONFIGURATION」を参照) またはこのオプションが提供されているかどうかに基づいて、開始時にリベース全体に設定されます。 そうしないと、開始時の明示的な --no-reschedule-failed-exec は、rebase.rescheduleFailedExec=true 設定の存在によって上書きされます。
+* --update-refs
+* --no-update-refs  
+    リベース中のコミットを指すブランチを自動的に強制更新します。 ワークツリーでチェックアウトされたブランチは、この方法では更新されません。<br><br>構成変数 rebase.updateRefs が設定されている場合、このオプションを使用してこの設定をオーバーライドし、無効にすることができます。<br><br>以下の「互換性のないオプション」も参照してください。
