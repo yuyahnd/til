@@ -115,3 +115,4 @@
 次のオプション:
 * --apply
 * --whitespace
+* -C
