@@ -120,3 +120,4 @@
 ### 次のオプションとは互換性がありません
 * --merge
 * --strategy
+* --strategy-option
