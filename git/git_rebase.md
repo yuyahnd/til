@@ -121,3 +121,4 @@
 * --merge
 * --strategy
 * --strategy-option
+* --autosquash
