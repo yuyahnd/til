@@ -122,3 +122,4 @@
 * --strategy
 * --strategy-option
 * --autosquash
+* --rebase-merges
