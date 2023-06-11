@@ -123,3 +123,4 @@
 * --strategy-option
 * --autosquash
 * --rebase-merges
+* --interactive
