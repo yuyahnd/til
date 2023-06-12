@@ -124,3 +124,4 @@
 * --autosquash
 * --rebase-merges
 * --interactive
+* --exec
