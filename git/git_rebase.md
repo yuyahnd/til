@@ -125,3 +125,4 @@
 * --rebase-merges
 * --interactive
 * --exec
+* --no-keep-empty
