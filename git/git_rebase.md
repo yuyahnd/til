@@ -127,3 +127,4 @@
 * --exec
 * --no-keep-empty
 * --empty=
+* --[no-]reapply-cherry-picks when used without --keep-base
