@@ -129,3 +129,4 @@
 * --empty=
 * --[no-]reapply-cherry-picks when used without --keep-base
 * --update-refs
+* --root when used without --onto
