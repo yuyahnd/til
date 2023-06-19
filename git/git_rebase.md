@@ -132,3 +132,4 @@
 * --root when used without --onto
 
 ### さらに、次のオプションのペアには互換性がありません
+* --keep-base and --onto
