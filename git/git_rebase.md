@@ -133,3 +133,4 @@
 
 ### さらに、次のオプションのペアには互換性がありません
 * --keep-base and --onto
+* --keep-base and --root
