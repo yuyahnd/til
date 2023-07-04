@@ -172,3 +172,5 @@ git rebase には、apply と merge という 2 つの主要なバックエン�
 ### Interruptability
 
 適用バックエンドには、タイミングの悪い割り込みによる安全性の問題があります。 ユーザーがリベースを中止しようとして間違ったタイミングで Ctrl-C を押した場合、リベースは後続の git rebase --abort では中止できない状態になる可能性があります。 マージ バックエンドには同じ欠点はないようです。 (詳細については、https://lore.kernel.org/git/20200207132152.GC2868@szeder.dev/ を参照してください。)
+
+### Commit Rewording
