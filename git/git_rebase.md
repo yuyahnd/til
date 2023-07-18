@@ -200,3 +200,4 @@ Rebasing中に競合が発生すると、Rebaseは停止し、ユーザーに解
 
      * ignore-space-change
      * ignore-all-space
+     * ignore-space-at-eol
