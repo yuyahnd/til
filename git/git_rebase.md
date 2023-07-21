@@ -201,4 +201,5 @@ Rebasing中に競合が発生すると、Rebaseは停止し、ユーザーに解
      * ignore-space-change
      * ignore-all-space
      * ignore-space-at-eol
-     * ignore-cr-at-eol
+     * ignore-cr-at-eol  
+     3 者間マージのために、指定されたタイプの空白変更を含む行を変更されていないものとして扱います。 行に対する他の変更と混合した空白の変更は無視されません。 git-diff[1] -b、-w、--ignore-space-at-eol、および --ignore-cr-at-eol も参照してください。
