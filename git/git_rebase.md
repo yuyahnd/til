@@ -213,3 +213,4 @@ Rebasing中に競合が発生すると、Rebaseは停止し、ユーザーに解
     * no-renormalize
     再正規化オプションを無効にします。 これは、merge.renormalize 構成変数をオーバーライドします。
     * find-renames[=\<n>]
+    名前変更の検出をオンにし、オプションで類似性のしきい値を設定します。 これがデフォルトです。 これは、merge.renames 構成変数をオーバーライドします。 git-diff --find-renames も参照してください。
