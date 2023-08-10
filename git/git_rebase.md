@@ -226,3 +226,4 @@ Rebasing中に競合が発生すると、Rebaseは停止し、ユーザーに解
     * diff-algorithm=[patience|minimal|histogram|myers]  
     マージ中に別の差分アルゴリズムを使用します。これにより、重要でない一致行 (別個の関数の中括弧など) によって発生する誤ったマージを回避できます。 git-diff--diff-algorithm も参照してください。 ort は特に diff-algorithm=histogram を使用しますが、再帰的デフォルトは diff.algorithm 構成設定であることに注意してください。
     * no-renames  
+    名前変更の検出をオフにします。 これは、merge.renames 構成変数をオーバーライドします。 git-diff --no-renames も参照してください。
