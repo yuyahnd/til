@@ -19,3 +19,4 @@
 このオプションを使用すると、git revert で、revert をコミットする前にコミット メッセージを編集できるようになります。 これは、ターミナルからコマンドを実行する場合のデフォルトです。
 
 * -m parent-number
+* --mainline parent-number  
