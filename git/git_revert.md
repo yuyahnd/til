@@ -34,3 +34,4 @@
 
 * -S[\<keyid>]
 * --gpg-sign[=\<keyid>]
+* --no-gpg-sign  
