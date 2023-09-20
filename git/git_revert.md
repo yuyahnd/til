@@ -42,3 +42,4 @@ GPG 署名コミット。 keyid 引数はオプションであり、デフォル
 * --strategy=\<strategy>  
 指定されたマージ戦略を使用します。 使用は 1 回のみにしてください。 詳細については、git-merge の「マージ戦略」セクションを参照してください。
 * -X\<option>  
+* --strategy-option=\<option>
