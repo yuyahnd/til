@@ -44,3 +44,4 @@ GPG 署名コミット。 keyid 引数はオプションであり、デフォル
 * -X\<option>  
 * --strategy-option=\<option>
 マージ戦略固有のオプションをマージ戦略に渡します。 詳細については、git-merge を参照してください。
+* --rerere-autoupdate 
