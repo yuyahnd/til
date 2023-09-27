@@ -51,3 +51,4 @@ rerere メカニズムが現在の競合に関して記録された解決策を�
 ログ メッセージの本文を「This reverts <元に戻されるコミットの完全なオブジェクト名>.」で始めるのではなく、「--pretty=reference」形式を使用してコミットを参照します (git-log[1] を参照)。 revert.reference 構成変数を使用すると、このオプションをデフォルトで有効にすることができます。
 
 ## SEQUENCER SUBCOMMANDS
+* --continue  
