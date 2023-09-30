@@ -53,3 +53,4 @@ rerere メカニズムが現在の競合に関して記録された解決策を�
 ## SEQUENCER SUBCOMMANDS
 * --continue  
 git/sequencer の情報を使用して、進行中の操作を続行します。 失敗したチェリーピックまたはリバートでの競合を解決した後に続行するために使用できます。
+* --skip  
