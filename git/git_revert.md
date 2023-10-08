@@ -66,3 +66,7 @@ git/sequencer の情報を使用して、進行中の操作を続行します。
 git revert HEAD~3
 ```
 HEAD の最後から 4 番目のコミットで指定された変更を元に戻し、元に戻した変更を含む新しいコミットを作成します。
+
+```
+git revert -n master~5..master~2
+```
