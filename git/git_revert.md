@@ -76,3 +76,5 @@ git revert -n master~5..master~2
 ## CONFIGURATION
 
 このセクションのこの行より下のすべては、git-config ドキュメントから選択的に組み込まれています。 内容はそこにあるものと同じです。
+
+* revert.reference
