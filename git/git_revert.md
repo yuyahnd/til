@@ -78,3 +78,5 @@ git revert -n master~5..master~2
 このセクションのこの行より下のすべては、git-config ドキュメントから選択的に組み込まれています。 内容はそこにあるものと同じです。
 
 * revert.reference
+
+この変数を true に設定すると、git revert は --reference オプションが指定されているかのように動作します。
