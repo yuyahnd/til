@@ -17,3 +17,5 @@ Git によって管理されていない現在のディレクトリ内のファ�
 
 * --no-exclude-standard  
 .gitignore メカニズムを無視して、無視されたファイルも検索します。 --untracked でのみ有効です。
+
+* --exclude-standard  
