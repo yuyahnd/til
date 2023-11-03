@@ -30,3 +30,5 @@ Git によって管理されていない現在のディレクトリ内のファ�
 
 * --textconv  
 textconv フィルター設定を尊重します。
+
+* --no-textconv
