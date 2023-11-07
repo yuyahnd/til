@@ -35,3 +35,4 @@ textconv フィルター設定を尊重します。
 textconv フィルター設定は無視されます。 これがデフォルトです。
 
 * -i
+* --ignore-case  
