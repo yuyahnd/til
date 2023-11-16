@@ -49,3 +49,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 --max- Depth=-1 と同じ。 これがデフォルトです。
 
 * --no-recursive  
+--max- Depth=0 と同じ
