@@ -47,3 +47,5 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 * -r
 * --recursive  
 --max- Depth=-1 と同じ。 これがデフォルトです。
+
+* --no-recursive  
