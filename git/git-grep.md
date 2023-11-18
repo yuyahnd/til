@@ -50,3 +50,5 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 
 * --no-recursive  
 --max- Depth=0 と同じ
+
+* -w
