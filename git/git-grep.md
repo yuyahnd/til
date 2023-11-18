@@ -52,3 +52,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 --max- Depth=0 と同じ
 
 * -w
+* --word-regexp  
