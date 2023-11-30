@@ -69,3 +69,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 * -E  
 * --extended-regexp
 * -G
+* --basic-regexp  
