@@ -89,3 +89,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 * -l
 * --files-with-matches
 * --name-only 
+* -L
