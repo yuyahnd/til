@@ -91,3 +91,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 * --name-only 
 * -L
 * --files-without-match  
+一致した行をすべて表示するのではなく、一致を含む (または含まない) ファイルの名前のみを表示します。 git diff との互換性を高めるため、--name-only は --files-with-matches の同義語です。
