@@ -127,3 +127,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 
 * -\<num>
 * -C \<num>
+* --context \<num>  
