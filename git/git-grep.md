@@ -181,3 +181,5 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 
 * git grep 'time_t' -- '*.[ch]'  
 作業ディレクトリとそのサブディレクトリにある、追跡されたすべての .c および .h ファイルで time_t を探します。
+
+* git grep -e '#define' --and \( -e MAX_PATH -e PATH_MAX \) 
