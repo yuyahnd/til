@@ -187,3 +187,5 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 
 * git grep --all-match -e NODE -e Unexpected
 NODE または Unexpected の両方に一致する行を含むファイル内で、その行を探します。
+
+* git grep solution -- :^Documentation 
