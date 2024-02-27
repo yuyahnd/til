@@ -189,3 +189,4 @@ textconv フィルター設定は無視されます。 これがデフォルト�
 NODE または Unexpected の両方に一致する行を含むファイル内で、その行を探します。
 
 * git grep solution -- :^Documentation 
+ドキュメント内のファイルを除外して解決策を探します。
