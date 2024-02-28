@@ -190,3 +190,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 
 * git grep solution -- :^Documentation 
 ドキュメント内のファイルを除外して解決策を探します。
+
+ ## NOTES ON THREADS
+ 
