@@ -192,4 +192,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 ドキュメント内のファイルを除外して解決策を探します。
 
  ## NOTES ON THREADS
+ --open-files-in-pager が使用される場合、--threads オプション (および grep.threads 構成) は無視され、シングルスレッド実行が強制されます。
+
  
