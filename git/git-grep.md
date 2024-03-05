@@ -199,4 +199,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
  ## CONFIGURATION
 
  このセクションのこの行より下のすべては、git-config[1] ドキュメントから選択的に組み込まれています。 内容はそこにあるものと同じです。
+
+ * grep.lineNumber
  
