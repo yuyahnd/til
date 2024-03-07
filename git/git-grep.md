@@ -202,4 +202,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 
  * grep.lineNumber
  true に設定すると、デフォルトで -n オプションが有効になります。
+
+ * grep.column
  
