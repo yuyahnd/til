@@ -205,4 +205,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 
  * grep.column
  true に設定すると、デフォルトで --column オプションが有効になります。
+
+ * grep.patternType
  
