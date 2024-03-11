@@ -207,4 +207,5 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
  true に設定すると、デフォルトで --column オプションが有効になります。
 
  * grep.patternType
+ デフォルトのマッチング動作を設定します。 Basic、extended、fixed、または perl の値を使用すると、それに応じて --basic-regexp、--extended-regexp、--fixed-strings、または --perl-regexp オプションが有効になりますが、デフォルト値では grep が使用されます。 基本と拡張のどちらかを選択する .extendedRegexp オプション。
  
