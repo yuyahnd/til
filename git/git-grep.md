@@ -211,4 +211,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 
  * grep.extendedRegexp
  true に設定すると、デフォルトで --extended-regexp オプションが有効になります。 grep.patternType オプションがデフォルト以外の値に設定されている場合、このオプションは無視されます。
+
+ * grep.threads
  
