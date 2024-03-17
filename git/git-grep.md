@@ -217,4 +217,6 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
 
  * grep.fullName
  true に設定すると、デフォルトで --full-name オプションが有効になります。
+
+ * grep.fallbackToNoIndex
  
