@@ -219,4 +219,5 @@ NODE または Unexpected の両方に一致する行を含むファイル内で
  true に設定すると、デフォルトで --full-name オプションが有効になります。
 
  * grep.fallbackToNoIndex
+ true に設定すると、git grep が git リポジトリの外部で実行される場合は、git grep --no-index にフォールバックします。 デフォルトは false です。
  
