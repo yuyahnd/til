@@ -22,3 +22,4 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 ## OPTIONS
 
 * -b  
+境界コミットには空の SHA-1 を表示します。 これは、blame.blankBoundary 設定オプションを介して制御することもできます。
