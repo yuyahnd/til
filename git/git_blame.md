@@ -26,3 +26,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 * --root  
 ルートコミットを境界として扱わないでください。 これは、blame.showroot configオプションを介して制御することもできます。
+
+* --show-stats
