@@ -32,3 +32,4 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 * -L \<start>,\<end>
 * -L :\<funcname>
+\<start>、\<end>、または関数名正規表現 \<funcname> で指定された行範囲のみに注釈を付けます。 複数回指定することも可能です。 重複する範囲は許可されます。
