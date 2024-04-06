@@ -35,3 +35,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 \<start>、\<end>、または関数名正規表現 \<funcname> で指定された行範囲のみに注釈を付けます。 複数回指定することも可能です。 重複する範囲は許可されます。
 
 \<start> and \<end> are optional. -L \<start> or -L \<start>, spans from \<start> to end of file. -L ,\<end> spans from start of file to \<end>.
+
+\<start> and <end> can take one of these forms:
