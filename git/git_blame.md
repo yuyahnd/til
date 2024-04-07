@@ -38,4 +38,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 \<start> and <end> can take one of these forms:
 
-* number
+* number  
+\<start> または \<end> が数値の場合、絶対行番号 (行は 1 からカウントされます) を指定します。
