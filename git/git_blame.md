@@ -37,3 +37,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 \<start> and \<end> are optional. -L \<start> or -L \<start>, spans from \<start> to end of file. -L ,\<end> spans from start of file to \<end>.
 
 \<start> and <end> can take one of these forms:
+
+* number
