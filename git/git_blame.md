@@ -43,3 +43,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 * /regex/
 このフォームは、指定された POSIX 正規表現に一致する最初の行を使用します。 \<start> が正規表現の場合、前の -L 範囲があればその末尾から検索し、それ以外の場合はファイルの先頭から検索します。 \<start> が ^/regex/ の場合、ファイルの先頭から検索します。 \<end> が正規表現の場合、\<start> で指定された行から検索を開始します。
+
+* +offset or -offset
