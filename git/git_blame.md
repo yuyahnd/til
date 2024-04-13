@@ -46,3 +46,6 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 * +offset or -offset
 これは \<end> に対してのみ有効で、\<start> で指定された行の前後の行数を指定します。
+
+
+\<start> と \<end> の代わりに :\<funcname> を指定すると、\<funcname> に一致する最初の funcname 行から次の funcname 行までの範囲を示す正規表現になります。 :\<funcname> は、前の -L 範囲があればその末尾から検索し、それ以外の場合はファイルの先頭から検索します。 ^:\<関数名> はファイルの先頭から検索します。 関数名は、git diff がパッチのハンク ヘッダーを処理するのと同じ方法で決定されます (gitattributes のカスタム ハンク ヘッダーの定義を参照)。
