@@ -55,3 +55,5 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 
 * -t  
 生のタイムスタンプを表示します (デフォルト: オフ)。
+
+* -S \<revs-file>  
