@@ -60,3 +60,4 @@ ea4c7f9bf69e781dd0cd88d2bccb2bf5cc15c9a7 git-blame: Make the output
 git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用します。
 
 * --reverse \<rev>..\<rev>  
+歴史を後戻りではなく前に進めます。 線が出現したリビジョンを表示する代わりに、線が存在した最後のリビジョンが表示されます。 これには、非難するパスが START に存在する START..END のような範囲のリビジョンが必要です。 便宜上、 gitblame --reverse START は gitblame --reverse START..HEAD として扱われます。
