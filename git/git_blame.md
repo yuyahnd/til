@@ -68,3 +68,5 @@ git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用
 * -p  
 * --porcelain  
 マシンで使用できるように設計された形式で表示します。
+
+* --line-porcelain  
