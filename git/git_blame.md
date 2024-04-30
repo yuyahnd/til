@@ -74,3 +74,5 @@ git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用
 
 * --incremental  
 マシンで使用できるように設計された形式で結果を段階的に表示します。
+
+* --encoding=\<encoding>  
