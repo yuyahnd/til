@@ -83,3 +83,5 @@ git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用
 
 * --date \<format>  
 日付の出力に使用する形式を指定します。 --date が指定されていない場合は、blame.date 構成変数の値が使用されます。 blame.date 構成変数も設定されていない場合は、iso 形式が使用されます。 サポートされている値については、git-log の --date オプションの説明を参照してください。
+
+* --[no-]progress
