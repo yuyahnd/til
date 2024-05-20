@@ -104,3 +104,5 @@ git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用
 
 * --color-by-age  
 デフォルト形式での線の経過時間に応じて、線の注釈を色付けします。 color.blame.highlightRecent 構成オプションは、年齢の範囲ごとに使用される色を制御します。
+
+* -h  
