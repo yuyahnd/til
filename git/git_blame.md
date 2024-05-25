@@ -110,3 +110,5 @@ git-rev-list を呼び出す代わりに、revs-file のリビジョンを使用
 
 * -c  
 git-annotate と同じ出力モードを使用します (デフォルト: オフ)。
+
+* --score-debug  
