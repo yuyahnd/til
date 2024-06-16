@@ -9,3 +9,5 @@ git-apply - Apply a patch to files and/or to the index
 このコマンドはパッチを適用しますが、コミットは作成しません。git-format-patch[1]によって生成されたパッチや電子メールで受信したパッチからコミットを作成するには、git-am[1]を使用します。
 
 ## OPTIONS
+
+* \<patch>…​  
