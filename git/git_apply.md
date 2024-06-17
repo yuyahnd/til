@@ -11,3 +11,4 @@ git-apply - Apply a patch to files and/or to the index
 ## OPTIONS
 
 * \<patch>…​  
+パッチを読み込むファイル。- は標準入力から読み取るために使用できます。
