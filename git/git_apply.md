@@ -14,3 +14,4 @@ git-apply - Apply a patch to files and/or to the index
 パッチを読み込むファイル。- は標準入力から読み取るために使用できます。
 
 * --stat  
+パッチを適用する代わりに、入力の diffstat を出力します。「apply」をオフにします。
