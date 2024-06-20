@@ -15,3 +15,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --stat  
 パッチを適用する代わりに、入力の diffstat を出力します。「apply」をオフにします。
+
+* --numstat  
