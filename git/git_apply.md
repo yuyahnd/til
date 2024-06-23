@@ -18,3 +18,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --numstat  
 --stat に似ていますが、マシンフレンドリーになるように、追加および削除された行数を 10 進表記で表示し、パス名を省略せずに表示します。バイナリ ファイルの場合、0 0 ではなく 2 つの - を出力します。「適用」をオフにします。
+
+* --summary  
