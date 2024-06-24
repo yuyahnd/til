@@ -21,3 +21,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --summary  
 パッチを適用する代わりに、作成、名前の変更、モードの変更など、git diff 拡張ヘッダーから取得した情報の要約を出力します。「適用」をオフにします。
+
+* --check  
