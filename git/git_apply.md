@@ -24,3 +24,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --check  
 パッチを適用する代わりに、パッチが現在の作業ツリーやインデックス ファイルに適用可能かどうかを確認し、エラーを検出します。「適用」をオフにします。
+
+* --index  
