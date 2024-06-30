@@ -30,3 +30,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --cached  
 作業ツリーには触れずに、インデックスのみにパッチを適用します。--check が有効な場合は、インデックス エントリにパッチが適切に適用されるかどうかのみをチェックします。
+
+* --intent-to-add  
