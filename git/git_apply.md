@@ -35,3 +35,4 @@ git-apply - Apply a patch to files and/or to the index
 パッチを作業ツリーにのみ適用する場合、後でインデックスに追加される新しいファイルをマークします (git-add[1] の --intent-to-add オプションを参照)。このオプションは、Git リポジトリで実行され、--index が指定されていない場合を除き、無視されます。--index は、--cached や --3way などの他のオプションによって暗示される可能性があることに注意してください。
 
 * -3  
+* --3way  
