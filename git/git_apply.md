@@ -37,3 +37,5 @@ git-apply - Apply a patch to files and/or to the index
 * -3  
 * --3way  
 パッチが適用対象である BLOB の ID を記録し、それらの BLOB がローカルで使用できる場合は、3 方向マージを試行します。これにより、作業ツリーのファイルに競合マーカーが残り、ユーザーが解決できるようになります。このオプションは、--cached オプションが使用されない限り、--index オプションを意味し、--reject オプションとは互換性がありません。--cached オプションと一緒に使用すると、競合はキャッシュの上位ステージに残されます。
+
+* --build-fake-ancestor=\<file>  
