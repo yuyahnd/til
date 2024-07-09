@@ -43,3 +43,4 @@ git-apply - Apply a patch to files and/or to the index
 
 * -R  
 * --reverse  
+パッチを逆順に貼り付けます。
