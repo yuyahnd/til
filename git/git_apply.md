@@ -50,3 +50,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * -z  
 --numstat が指定されている場合は、パス名を変更せず、NUL で終了する機械可読形式を使用します。<br><br>このオプションを指定しないと、「異常な」文字を含むパス名は、設定変数 core.quotePath の説明に従って引用符で囲まれます (git-config を参照)。
+
+* -p\<n>
