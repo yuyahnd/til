@@ -53,3 +53,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * -p\<n>
 従来の diff パスから、先頭の \<n> 個のパス コンポーネント (スラッシュで区切る) を削除します。たとえば、-p2 を使用すると、a/dir/file に対するパッチがファイルに直接適用されます。デフォルトは 1 です。
+
+* -C\<n>  
