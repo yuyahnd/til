@@ -59,3 +59,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --unidiff-zero  
 デフォルトでは、git apply は、適用されるパッチが少なくとも 1 行のコンテキストを含む統合 diff であると想定します。これは優れた安全対策ですが、--unified=0 で生成された diff を適用すると機能しなくなります。これらのチェックをバイパスするには、--unidiff-zero を使用します。<br><br>上記の理由により、コンテキストフリー パッチの使用は推奨されません。
+
+* --apply  
