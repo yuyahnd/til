@@ -62,3 +62,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --apply  
 上記の「適用をオフにする」とマークされたオプションのいずれかを使用すると、git apply は実際にパッチを適用せずに要求された情報を読み取って出力します。パッチも適用するには、これらのフラグの後にこのフラグを指定します。
+
+* --no-add  
