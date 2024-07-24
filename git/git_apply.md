@@ -67,3 +67,4 @@ git-apply - Apply a patch to files and/or to the index
 パッチを適用するときに、パッチによって行われた追加を無視します。これを使用すると、最初に diff を実行し、その結果をこのオプションで適用することで、2 つのファイル間の共通部分を抽出できます。これにより、削除部分は適用されますが、追加部分は適用されません。
 
 * --allow-binary-replacement
+* --binary  
