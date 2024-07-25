@@ -68,3 +68,4 @@ git-apply - Apply a patch to files and/or to the index
 
 * --allow-binary-replacement
 * --binary  
+これまで、ユーザーからの明示的な許可なしにバイナリ パッチの適用は許可していませんでした。このフラグは、そのための手段でした。現在は、バイナリ パッチの適用は常に許可されているため、これは何も行いません。
