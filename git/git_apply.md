@@ -72,3 +72,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --exclude=\<path-pattern>  
 指定されたパス パターンに一致するファイルには変更を適用しません。これは、特定のファイルまたはディレクトリを除外するパッチセットをインポートするときに役立ちます。
+
+* --include=\<path-pattern>  
