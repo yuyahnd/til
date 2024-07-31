@@ -75,3 +75,5 @@ git-apply - Apply a patch to files and/or to the index
 
 * --include=\<path-pattern>  
 指定されたパス パターンに一致するファイルに変更を適用します。これは、特定のファイルまたはディレクトリを含めるパッチセットをインポートするときに役立ちます。<br><br>--exclude および --include パターンが使用される場合、それらはコマンド ラインに表示される順序で検査され、最初の一致によって各パスへのパッチが使用されるかどうかが決定されます。コマンド ラインに include パターンがない場合、include/exclude パターンに一致しないパスへのパッチがデフォルトで使用され、include パターンがある場合は無視されます。
+
+* --ignore-space-change  
