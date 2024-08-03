@@ -78,3 +78,4 @@ git-apply - Apply a patch to files and/or to the index
 
 * --ignore-space-change  
 * --ignore-whitespace  
+パッチを適用する際、必要に応じてコンテキスト行の空白の変更を無視します。コンテキスト行は空白を保持し、--whitespace オプションの値に関係なく空白の修正は行われません。ただし、新しい行は修正されます。
