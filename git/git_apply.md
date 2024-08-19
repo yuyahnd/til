@@ -97,3 +97,4 @@ git-apply - Apply a patch to files and/or to the index
 進行状況を stderr に報告します。デフォルトでは、現在適用されているパッチに関するメッセージのみが出力されます。このオプションにより、追加情報が報告されます。
 
 * -q  
+* --quiet  
