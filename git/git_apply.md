@@ -99,3 +99,5 @@ git-apply - Apply a patch to files and/or to the index
 * -q  
 * --quiet  
 stderr 出力を抑制します。パッチのステータスと進行状況に関するメッセージは印刷されません。
+
+* --recount  
