@@ -105,3 +105,5 @@ stderr 出力を抑制します。パッチのステータスと進行状況に�
 
 * --directory=\<root>  
 すべてのファイル名の先頭に <root> を追加します。"-p" 引数も渡された場合は、新しいルートを先頭に追加する前に適用されます。<br><br>たとえば、a/git-gui.sh を b/git-gui.sh に更新することに関するパッチは、git apply --directory=modules/git-gui を実行することで、作業ツリー modules/git-gui/git-gui.sh 内のファイルに適用できます。
+
+* --unsafe-paths  
