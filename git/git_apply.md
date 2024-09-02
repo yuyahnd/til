@@ -114,3 +114,5 @@ stderr 出力を抑制します。パッチのステータスと進行状況に�
 
 ## CONFIGURATION
 このセクションのこの行より下の部分はgit-config[1]のドキュメントから選択的に取り込まれています。内容はそこに書かれているものと同じです:
+
+* apply.ignoreWhitespace  
