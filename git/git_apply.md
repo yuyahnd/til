@@ -119,3 +119,4 @@ stderr 出力を抑制します。パッチのステータスと進行状況に�
 change に設定すると、--ignore-space-change オプションと同じように、git apply に空白の変更を無視するように指示します。no、none、never、false のいずれかに設定すると、git apply にすべての空白の違いを尊重するように指示します。git-apply[1] を参照してください。
 
 * apply.whitespace  
+--whitespace オプションと同じように、git apply に空白の処理方法を指示します。git-apply[1] を参照してください。
