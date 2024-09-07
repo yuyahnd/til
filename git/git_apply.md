@@ -120,3 +120,5 @@ change に設定すると、--ignore-space-change オプションと同じよう
 
 * apply.whitespace  
 --whitespace オプションと同じように、git apply に空白の処理方法を指示します。git-apply[1] を参照してください。
+
+### SUBMODULES
