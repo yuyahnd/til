@@ -9,3 +9,4 @@ git bisect <subcommand> <options>
 ```
 
 # DESCRIPTION
+このコマンドはさまざまなサブコマンドを取り、サブコマンドに応じて異なるオプションを取ります。
