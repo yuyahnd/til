@@ -14,4 +14,5 @@ git bisect <subcommand> <options>
 ```
 git bisect start [--term-(bad|new)=<term-new> --term-(good|old)=<term-old>]
 	  [--no-checkout] [--first-parent] [<bad> [<good>...]] [--] [<pathspec>...]
+ect (bad|new|<term-new>) [<rev>]
 ```
