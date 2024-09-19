@@ -17,4 +17,5 @@ git bisect start [--term-(bad|new)=<term-new> --term-(good|old)=<term-old>]
 git bisect (bad|new|<term-new>) [<rev>]
 git bisect (good|old|<term-old>) [<rev>...]
 git bisect terms [--term-(good|old) | --term-(bad|new)]
+git bisect skip [(<rev>|<range>)...]
 ```
