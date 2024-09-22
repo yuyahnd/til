@@ -19,4 +19,5 @@ git bisect (good|old|<term-old>) [<rev>...]
 git bisect terms [--term-(good|old) | --term-(bad|new)]
 git bisect skip [(<rev>|<range>)...]
 git bisect reset [<commit>]
+git bisect (visualize|view)
 ```
