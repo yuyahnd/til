@@ -20,4 +20,5 @@ git bisect terms [--term-(good|old) | --term-(bad|new)]
 git bisect skip [(<rev>|<range>)...]
 git bisect reset [<commit>]
 git bisect (visualize|view)
+git bisect replay <logfile>
 ```
