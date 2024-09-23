@@ -21,4 +21,5 @@ git bisect skip [(<rev>|<range>)...]
 git bisect reset [<commit>]
 git bisect (visualize|view)
 git bisect replay <logfile>
+git bisect log
 ```
