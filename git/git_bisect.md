@@ -23,4 +23,5 @@ git bisect (visualize|view)
 git bisect replay <logfile>
 git bisect log
 git bisect run <cmd> [<arg>...]
+git bisect help
 ```
