@@ -33,3 +33,7 @@ git bisect help
 ### Basic bisect commands: start, bad, good
 
 たとえば、プロジェクトのバージョン v2.6.13-rc2 で動作することがわかっている機能を壊したコミットを見つけようとしているとします。次のようにして bisect セッションを開始します。
+
+```
+$ git bisect start
+```
