@@ -36,4 +36,5 @@ git bisect help
 
 ```
 $ git bisect start
+$ git bisect bad                 # Current version is bad
 ```
