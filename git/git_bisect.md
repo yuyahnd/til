@@ -37,4 +37,5 @@ git bisect help
 ```
 $ git bisect start
 $ git bisect bad                 # Current version is bad
+$ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 ```
