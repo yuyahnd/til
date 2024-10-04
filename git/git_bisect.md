@@ -39,3 +39,4 @@ $ git bisect start
 $ git bisect bad                 # Current version is bad
 $ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 ```
+少なくとも 1 つの不良コミットと 1 つの正常なコミットを指定すると、git bisect はその履歴の範囲の中央にあるコミットを選択し、それをチェックアウトして、次のような出力を行います。
