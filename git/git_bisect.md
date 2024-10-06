@@ -46,3 +46,7 @@ Bisecting: 675 revisions left to test after this (roughly 10 steps)
 ```
 
 チェックアウトしたバージョンをコンパイルしてテストします。そのバージョンが正しく動作する場合は、次のように入力します。
+
+```
+$ git bisect good
+```
