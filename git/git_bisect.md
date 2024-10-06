@@ -44,3 +44,5 @@ $ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 ```
 Bisecting: 675 revisions left to test after this (roughly 10 steps)
 ```
+
+チェックアウトしたバージョンをコンパイルしてテストします。そのバージョンが正しく動作する場合は、次のように入力します。
