@@ -50,3 +50,5 @@ Bisecting: 675 revisions left to test after this (roughly 10 steps)
 ```
 $ git bisect good
 ```
+
+そのバージョンが壊れている場合は、
