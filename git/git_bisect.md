@@ -52,3 +52,6 @@ $ git bisect good
 ```
 
 そのバージョンが壊れている場合は、
+```
+$ git bisect bad
+```
