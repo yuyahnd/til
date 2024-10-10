@@ -55,3 +55,4 @@ $ git bisect good
 ```
 $ git bisect bad
 ```
+するとgit bisectは次のような応答を返す。
