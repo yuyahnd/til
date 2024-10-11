@@ -56,3 +56,6 @@ $ git bisect good
 $ git bisect bad
 ```
 するとgit bisectは次のような応答を返す。
+```
+Bisecting: 337 revisions left to test after this (roughly 9 steps)
+```
