@@ -64,3 +64,4 @@ Bisecting: 337 revisions left to test after this (roughly 9 steps)
 最終的に検査するリビジョンがなくなり、コマンドは最初の不良コミットの説明を出力します。参照 refs/bisect/bad はそのコミットを指すままになります。
 
 ## Bisect reset
+二分セッションの後、二分状態をクリーンアップして元の HEAD に戻すには、次のコマンドを発行します。
