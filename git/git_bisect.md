@@ -70,3 +70,5 @@ Bisecting: 337 revisions left to test after this (roughly 9 steps)
 $ git bisect reset
 ```
 デフォルトでは、Git Bisectが開始される前にチェックアウトされたコミットにツリーを返します。 （新しいgit bisectスタートも、古い二等分状態をクリーンアップするため、それを行います。）
+
+オプションの引数を使用すると、代わりに別のコミットに戻ることができます。
