@@ -77,3 +77,5 @@ $ git bisect reset
 $ git bisect reset <commit>
 ```
 たとえば、git bisect reset bisect/bad は最初の不良リビジョンをチェックアウトしますが、git bisect reset HEAD は現在のバイセクション コミットのままにして、コミットの切り替えをまったく回避します。
+
+## Alternate terms
