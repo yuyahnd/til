@@ -92,3 +92,7 @@ $ git bisect reset <commit>
 git bisect old [<rev>]
 ```
 コミットが要求された変更の前にあったことを示す、または
+
+```
+git bisect new [<rev>...]
+```
