@@ -96,3 +96,4 @@ git bisect old [<rev>]
 ```
 git bisect new [<rev>...]
 ```
+それ以降であることを示すために使用します。
