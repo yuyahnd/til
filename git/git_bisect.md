@@ -104,3 +104,5 @@ git bisect terms
 ```
 
 git bisect terms --term-old または git bisect terms --term-good を使用すると、古い用語だけを取得できます。git bisect terms --term-new および git bisect terms --term-bad を使用すると、目的の変更よりも新しいコミットを呼び出す方法を知ることができます。
+
+「悪い」/「良い」や「新しい」/「古い」の代わりに独自の用語を使用したい場合は、任意の名前を選択できます（reset、startなどの既存のbisectサブコマンドを除く）。
