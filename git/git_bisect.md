@@ -112,3 +112,7 @@ git bisect start --term-old <term-old> --term-new <term-new>
 ```
 
 例えば、パフォーマンスの低下を引き起こしたコミットを探している場合は、次のようにします。
+
+```
+git bisect start --term-old fast --term-new slow
+```
