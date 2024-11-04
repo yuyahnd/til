@@ -116,3 +116,5 @@ git bisect start --term-old <term-old> --term-new <term-new>
 ```
 git bisect start --term-old fast --term-new slow
 ```
+
+あるいはバグを修正したコミットを探している場合は、次のようにします。
