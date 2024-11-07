@@ -124,3 +124,5 @@ git bisect start --term-new fixed --term-old broken
 ```
 
 次に、git bisect good と git bisect bad の代わりに、git bisect \<term-old> と git bisect \<term-new> を使用してコミットをマークします。
+
+## Bisect visualize/view
