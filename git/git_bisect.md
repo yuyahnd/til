@@ -127,3 +127,7 @@ git bisect start --term-new fixed --term-old broken
 
 ## Bisect visualize/view
 gitk に現在残っている容疑者を確認するには、二分プロセス中に次のコマンドを発行します (視覚化の代替としてサブコマンド view を使用できます)。
+
+```
+$ git bisect visualize
+```
