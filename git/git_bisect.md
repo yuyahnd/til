@@ -131,3 +131,5 @@ gitk に現在残っている容疑者を確認するには、二分プロセス
 ```
 $ git bisect visualize
 ```
+
+Git は、さまざまな環境変数を通じてグラフィカル環境を検出します。DISPLAY は、Unix システムの X Window System 環境で設定されます。SESSIONNAME は、Cygwin の対話型デスクトップ セッションで設定されます。MSYSTEM は、Msys2 および Git for Windows で設定されます。SECURITYSESSIONID は、macOS の対話型デスクトップ セッションで設定される場合があります。
