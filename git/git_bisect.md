@@ -139,3 +139,5 @@ Git は、さまざまな環境変数を通じてグラフィカル環境を検�
 ```
 $ git bisect visualize --stat
 ```
+
+## Bisect log and bisect replay
