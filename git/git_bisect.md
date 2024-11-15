@@ -141,3 +141,4 @@ $ git bisect visualize --stat
 ```
 
 ## Bisect log and bisect replay
+リビジョンを良好または不良としてマークした後、これまでに行われた処理を表示するには次のコマンドを実行します。
