@@ -151,4 +151,5 @@ $ git bisect log
 
 ```
 $ git bisect reset
+$ git bisect replay that-file
 ```
