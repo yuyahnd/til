@@ -153,3 +153,5 @@ $ git bisect log
 $ git bisect reset
 $ git bisect replay that-file
 ```
+
+## Avoiding testing a commit
