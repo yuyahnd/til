@@ -158,3 +158,8 @@ $ git bisect replay that-file
 bisect セッションの途中で、提案されたリビジョンがテストに適していないことがわかった場合 (たとえば、ビルドに失敗し、その失敗が追跡しているバグとは何の関係もないことがわかっている場合)、近くのコミットを手動で選択して、代わりにそのコミットをテストできます。
 
 例えば：
+
+```
+$ git bisect good/bad			# previous round was good or bad.
+Bisecting: 337 revisions left to test after this (roughly 9 steps)
+```
