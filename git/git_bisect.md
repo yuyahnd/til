@@ -162,4 +162,5 @@ bisect セッションの途中で、提案されたリビジョンがテスト�
 ```
 $ git bisect good/bad			# previous round was good or bad.
 Bisecting: 337 revisions left to test after this (roughly 9 steps)
+$ git bisect visualize			# oops, that is uninteresting.
 ```
