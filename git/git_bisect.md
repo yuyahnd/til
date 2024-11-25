@@ -165,3 +165,5 @@ Bisecting: 337 revisions left to test after this (roughly 9 steps)
 $ git bisect visualize			# oops, that is uninteresting.
 $ git reset --hard HEAD~3		# try 3 revisions before what
 ```
+
+次に、選択したリビジョンをコンパイルしてテストし、その後、通常の方法でリビジョンを良好または不良としてマークします。
