@@ -168,3 +168,5 @@ $ git reset --hard HEAD~3		# try 3 revisions before what
 ```
 
 次に、選択したリビジョンをコンパイルしてテストし、その後、通常の方法でリビジョンを良好または不良としてマークします。
+
+## Bisect skip
