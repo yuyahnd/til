@@ -171,3 +171,7 @@ $ git reset --hard HEAD~3		# try 3 revisions before what
 
 ## Bisect skip
 近くのコミットを自分で選択する代わりに、次のコマンドを発行して Git にそれを実行するように依頼できます。
+
+```
+$ git bisect skip                 # Current version cannot be tested
+```
