@@ -175,3 +175,5 @@ $ git reset --hard HEAD~3		# try 3 revisions before what
 ```
 $ git bisect skip                 # Current version cannot be tested
 ```
+
+ただし、探しているコミットに隣接するコミットをスキップすると、Git はそれらのコミットのうちどれが最初の不良コミットであったかを正確に判断できなくなります。
