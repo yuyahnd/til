@@ -183,3 +183,5 @@ $ git bisect skip                 # Current version cannot be tested
 ```
 $ git bisect skip v2.5..v2.6
 ```
+
+これは、bisect プロセスに、v2.5 以降、v2.6 までのコミットはテストされないことを指示します。
