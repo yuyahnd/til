@@ -192,3 +192,5 @@ $ git bisect skip v2.5..v2.6
 $ git bisect skip v2.5 v2.5..v2.6
 ```
 これは、bisect プロセスに、v2.5 と v2.6 (含む) の間のコミットをスキップするように指示します。
+
+## Cutting down bisection by giving more parameters to bisect start
