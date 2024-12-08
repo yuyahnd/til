@@ -194,3 +194,5 @@ $ git bisect skip v2.5 v2.5..v2.6
 これは、bisect プロセスに、v2.5 と v2.6 (含む) の間のコミットをスキップするように指示します。
 
 ## Cutting down bisection by giving more parameters to bisect start
+
+追跡している問題にツリーのどの部分が関係しているかがわかっている場合は、bisect start コマンドを発行するときに pathspec パラメータを指定して、試行回数をさらに減らすことができます。
