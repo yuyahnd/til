@@ -196,3 +196,7 @@ $ git bisect skip v2.5 v2.5..v2.6
 ## Cutting down bisection by giving more parameters to bisect start
 
 追跡している問題にツリーのどの部分が関係しているかがわかっている場合は、bisect start コマンドを発行するときに pathspec パラメータを指定して、試行回数をさらに減らすことができます。
+
+```
+$ git bisect start -- arch/i386 include/asm-i386
+```
