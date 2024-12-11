@@ -202,3 +202,9 @@ $ git bisect start -- arch/i386 include/asm-i386
 ```
 
 事前に複数の正常なコミットがわかっている場合は、bisect start コマンドを発行するときに、不良コミットの直後にすべての正常なコミットを指定することにより、二分空間を狭めることができます。
+
+```
+$ git bisect start v2.6.20-rc6 v2.6.20-rc4 v2.6.20-rc1 --
+                   # v2.6.20-rc6 is bad
+                   # v2.6.20-rc4 and v2.6.20-rc1 are good
+```
