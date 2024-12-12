@@ -208,3 +208,5 @@ $ git bisect start v2.6.20-rc6 v2.6.20-rc4 v2.6.20-rc1 --
                    # v2.6.20-rc6 is bad
                    # v2.6.20-rc4 and v2.6.20-rc1 are good
 ```
+
+## Bisect run
