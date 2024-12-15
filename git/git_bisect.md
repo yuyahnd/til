@@ -212,3 +212,7 @@ $ git bisect start v2.6.20-rc6 v2.6.20-rc4 v2.6.20-rc1 --
 ## Bisect run
 
 現在のソース コードが適切かどうかを判断できるスクリプトがある場合は、次のコマンドを発行して二分することができます。
+
+```
+$ git bisect run my_script arguments
+```
