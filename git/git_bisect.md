@@ -238,3 +238,7 @@ bisect セッション中に、テスト対象のリビジョンに一時的な�
 ## EXAMPLES
 
 * 壊れたビルドを v1.2 と HEAD の間で自動的に二分します。  
+
+```
+$ git bisect start HEAD v1.2 --      # HEAD is bad, v1.2 is good
+```
