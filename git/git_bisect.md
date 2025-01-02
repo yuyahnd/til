@@ -241,4 +241,5 @@ bisect セッション中に、テスト対象のリビジョンに一時的な�
 
 ```
 $ git bisect start HEAD v1.2 --      # HEAD is bad, v1.2 is good
+$ git bisect run make                # "make" builds the app
 ```
