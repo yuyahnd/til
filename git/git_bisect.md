@@ -244,3 +244,5 @@ $ git bisect start HEAD v1.2 --      # HEAD is bad, v1.2 is good
 $ git bisect run make                # "make" builds the app
 $ git bisect reset                   # quit the bisect session
 ```
+
+* テストの失敗を origin と HEAD の間で自動的に二分します。  
