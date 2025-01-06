@@ -246,3 +246,7 @@ $ git bisect reset                   # quit the bisect session
 ```
 
 * テストの失敗を origin と HEAD の間で自動的に二分します。  
+
+```
+$ git bisect start HEAD origin --    # HEAD is bad, origin is good
+```
