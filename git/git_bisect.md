@@ -252,3 +252,5 @@ $ git bisect start HEAD origin --    # HEAD is bad, origin is good
 $ git bisect run make test           # "make test" builds and tests
 $ git bisect reset                   # quit the bisect session
 ```
+
+* 壊れたテストケースを自動的に二分する:  
