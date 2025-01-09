@@ -254,3 +254,7 @@ $ git bisect reset                   # quit the bisect session
 ```
 
 * 壊れたテストケースを自動的に二分する:  
+
+```
+$ cat ~/test.sh
+```
