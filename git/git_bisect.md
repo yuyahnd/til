@@ -257,4 +257,5 @@ $ git bisect reset                   # quit the bisect session
 
 ```
 $ cat ~/test.sh
+#!/bin/sh
 ```
