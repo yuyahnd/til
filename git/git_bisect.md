@@ -258,4 +258,5 @@ $ git bisect reset                   # quit the bisect session
 ```
 $ cat ~/test.sh
 #!/bin/sh
+make || exit 125                     # this skips broken builds
 ```
