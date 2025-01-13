@@ -259,4 +259,5 @@ $ git bisect reset                   # quit the bisect session
 $ cat ~/test.sh
 #!/bin/sh
 make || exit 125                     # this skips broken builds
+~/check_test_case.sh                 # does the test case pass?
 ```
