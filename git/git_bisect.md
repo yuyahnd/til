@@ -261,4 +261,5 @@ $ cat ~/test.sh
 make || exit 125                     # this skips broken builds
 ~/check_test_case.sh                 # does the test case pass?
 $ git bisect start HEAD HEAD~10 --   # culprit is among the last 10
+$ git bisect run ~/test.sh
 ```
