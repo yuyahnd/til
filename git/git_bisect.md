@@ -264,3 +264,5 @@ $ git bisect start HEAD HEAD~10 --   # culprit is among the last 10
 $ git bisect run ~/test.sh
 $ git bisect reset                   # quit the bisect session
 ```
+
+ここでは、test.sh カスタム スクリプトを使用します。このスクリプトでは、make が失敗した場合、現在のコミットをスキップします。check_test_case.sh は、テスト ケースが成功した場合は 0 で終了し、そうでない場合は 1 で終了する必要があります。
