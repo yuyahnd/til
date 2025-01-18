@@ -266,3 +266,5 @@ $ git bisect reset                   # quit the bisect session
 ```
 
 ここでは、test.sh カスタム スクリプトを使用します。このスクリプトでは、make が失敗した場合、現在のコミットをスキップします。check_test_case.sh は、テスト ケースが成功した場合は 0 で終了し、そうでない場合は 1 で終了する必要があります。
+
+bisect、make、test プロセスとスクリプト間の相互作用を防ぐために、test.sh と check_test_case.sh の両方をリポジトリの外部に配置する方が安全です。
