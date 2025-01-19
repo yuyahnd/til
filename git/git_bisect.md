@@ -270,3 +270,7 @@ $ git bisect reset                   # quit the bisect session
 bisect、make、test プロセスとスクリプト間の相互作用を防ぐために、test.sh と check_test_case.sh の両方をリポジトリの外部に配置する方が安全です。
 
 * 一時的な変更を加えて自動的に二分する (ホットフィックス):  
+
+```
+$ cat ~/test.sh
+```
