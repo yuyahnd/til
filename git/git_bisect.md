@@ -274,4 +274,6 @@ bisect、make、test プロセスとスクリプト間の相互作用を防ぐ�
 ```
 $ cat ~/test.sh
 #!/bin/sh
+
+# tweak the working tree by merging the hot-fix branch
 ```
