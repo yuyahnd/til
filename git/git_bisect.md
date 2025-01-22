@@ -276,4 +276,5 @@ $ cat ~/test.sh
 #!/bin/sh
 
 # tweak the working tree by merging the hot-fix branch
+# and then attempt a build
 ```
