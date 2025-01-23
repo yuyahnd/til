@@ -277,4 +277,5 @@ $ cat ~/test.sh
 
 # tweak the working tree by merging the hot-fix branch
 # and then attempt a build
+if	git merge --no-commit --no-ff hot-fix &&
 ```
