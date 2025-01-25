@@ -280,4 +280,7 @@ $ cat ~/test.sh
 if	git merge --no-commit --no-ff hot-fix &&
 	make
 then
+	# run project specific test and report its status
+	~/check_test_case.sh
+	status=$?
 ```
