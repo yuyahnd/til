@@ -283,4 +283,5 @@ then
 	# run project specific test and report its status
 	~/check_test_case.sh
 	status=$?
+else
 ```
