@@ -284,4 +284,6 @@ then
 	~/check_test_case.sh
 	status=$?
 else
+	# tell the caller this is untestable
+	status=125
 ```
