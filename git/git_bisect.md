@@ -286,4 +286,5 @@ then
 else
 	# tell the caller this is untestable
 	status=125
+fi
 ```
