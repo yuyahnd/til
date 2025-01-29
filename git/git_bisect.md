@@ -287,4 +287,7 @@ else
 	# tell the caller this is untestable
 	status=125
 fi
+
+# undo the tweak to allow clean flipping to the next commit
+git reset --hard
 ```
