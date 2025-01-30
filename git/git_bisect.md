@@ -290,4 +290,6 @@ fi
 
 # undo the tweak to allow clean flipping to the next commit
 git reset --hard
+
+# return control
 ```
