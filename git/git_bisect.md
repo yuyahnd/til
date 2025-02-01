@@ -292,4 +292,5 @@ fi
 git reset --hard
 
 # return control
+exit $status
 ```
