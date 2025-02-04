@@ -299,4 +299,5 @@ exit $status
 * 壊れたテストケースを自動的に二分する:  
 ```
 $ git bisect start HEAD HEAD~10 --   # culprit is among the last 10
+$ git bisect run sh -c "make || exit 125; ~/check_test_case.sh"
 ```
