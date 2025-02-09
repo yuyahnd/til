@@ -305,3 +305,6 @@ $ git bisect reset                   # quit the bisect session
 これは、テストを 1 行で記述すれば実行スクリプトがなくても実行できることを示しています。
 
 * 破損したリポジトリ内のオブジェクトグラフの正常な領域を見つける  
+```
+$ git bisect start HEAD <known-good-commit> [ <boundary-commit> ... ] --no-checkout
+```
