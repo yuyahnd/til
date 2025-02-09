@@ -307,4 +307,11 @@ $ git bisect reset                   # quit the bisect session
 * 破損したリポジトリ内のオブジェクトグラフの正常な領域を見つける  
 ```
 $ git bisect start HEAD <known-good-commit> [ <boundary-commit> ... ] --no-checkout
+$ git bisect run sh -c '
+	GOOD=$(git for-each-ref "--format=%(objectname)" refs/bisect/good-*) &&
+	git rev-list --objects BISECT_HEAD --not $GOOD >tmp.$$ &&
+	git pack-objects --stdout >/dev/null <tmp.$$
+	rc=$?
+	rm -f tmp.$$
+	test $rc = 0'
 ```
