@@ -314,4 +314,6 @@ $ git bisect run sh -c '
 	rc=$?
 	rm -f tmp.$$
 	test $rc = 0'
+
+$ git bisect reset                   # quit the bisect session
 ```
