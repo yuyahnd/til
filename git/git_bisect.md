@@ -319,3 +319,5 @@ $ git bisect reset                   # quit the bisect session
 ```
 
 この場合、git bisect run が終了すると、bisect/bad は、git pack オブジェクトで要求される意味で到達可能なグラフが完全にトラバース可能な親が少なくとも 1 つあるコミットを参照します。
+
+* コードの回帰ではなく修正を探す  
