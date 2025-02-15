@@ -324,4 +324,5 @@ $ git bisect reset                   # quit the bisect session
 
 ```
 $ git bisect start
+$ git bisect new HEAD    # current commit is marked as new
 ```
