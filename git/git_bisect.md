@@ -325,4 +325,5 @@ $ git bisect reset                   # quit the bisect session
 ```
 $ git bisect start
 $ git bisect new HEAD    # current commit is marked as new
+$ git bisect old HEAD~10 # the tenth commit from now is marked as old
 ```
