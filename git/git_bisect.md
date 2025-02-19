@@ -331,4 +331,5 @@ $ git bisect old HEAD~10 # the tenth commit from now is marked as old
 ```
 $ git bisect start --term-old broken --term-new fixed
 $ git bisect fixed
+$ git bisect broken HEAD~10
 ```
