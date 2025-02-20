@@ -333,3 +333,6 @@ $ git bisect start --term-old broken --term-new fixed
 $ git bisect fixed
 $ git bisect broken HEAD~10
 ```
+
+ ## ヘルプ
+ 
