@@ -335,4 +335,5 @@ $ git bisect broken HEAD~10
 ```
 
  ## ヘルプ
+ 短い使用方法の説明を取得するには git bisect を使用し、長い使用方法の説明を取得するには git bisect help または git bisect -h を使用します。
  
