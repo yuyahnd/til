@@ -16,3 +16,5 @@ git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] [<pathspec>…�
 オプションの <pathspec>... 引数が指定されている場合は、pathspec に一致するパスのみが影響を受けます。
 
 # OPTIONS
+
+* -d  
