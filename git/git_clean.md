@@ -23,3 +23,5 @@ git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] [<pathspec>…�
 
 * -f<br>--force  
 Git 構成変数 clean.requireForce が false に設定されていない場合、git clean は -f が指定されない限りファイルまたはディレクトリの削除を拒否します。Git は、2 番目の -f が指定されない限り、追跡されていないネストされた git リポジトリ (.git サブディレクトリを含むディレクトリ) の変更を拒否します。
+
+* -i<br>--interactive  
