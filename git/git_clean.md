@@ -26,3 +26,5 @@ Git 構成変数 clean.requireForce が false に設定されていない場合�
 
 * -i<br>--interactive  
 何が行われるかを表示し、対話的にファイルをクリーンアップします。詳細については、「対話モード」を参照してください。このモードでは対話的に実行することで独自の安全保護が提供されるため、構成変数 clean.requireForce は無視されます。
+
+* -n<br>--dry-run  
