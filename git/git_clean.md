@@ -29,3 +29,5 @@ Git 構成変数 clean.requireForce が false に設定されていない場合�
 
 * -n<br>--dry-run  
 実際には何も削除せず、何が行われるかを示すだけです。何も削除されないため、構成変数 clean.requireForce は無視されます。
+
+* -q<br>--quiet  
