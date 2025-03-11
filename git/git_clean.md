@@ -32,3 +32,5 @@ Git 構成変数 clean.requireForce が false に設定されていない場合�
 
 * -q<br>--quiet  
 静かに、エラーのみを報告し、正常に削除されたファイルは報告しません。
+
+* -e \<pattern><br>--exclude=\<pattern>  
