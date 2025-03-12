@@ -34,3 +34,4 @@ Git 構成変数 clean.requireForce が false に設定されていない場合�
 静かに、エラーのみを報告し、正常に削除されたファイルは報告しません。
 
 * -e \<pattern><br>--exclude=\<pattern>  
+標準の無視ルールに加えて、指定された除外パターンを使用します（gitignoreを参照）。
