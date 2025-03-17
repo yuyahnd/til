@@ -41,3 +41,5 @@ Git 構成変数 clean.requireForce が false に設定されていない場合�
 
 * -X  
 Git によって無視されたファイルのみを削除します。これは、すべてを最初から再構築し、手動で作成されたファイルを保持する場合に便利です。
+
+## Interactive mode
