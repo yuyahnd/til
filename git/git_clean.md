@@ -50,4 +50,5 @@ Git によって無視されたファイルのみを削除します。これは�
 ```
     *** Commands ***
 	1: clean                2: filter by pattern    3: select by numbers
+	4: ask each             5: quit                 6: help
 ```
