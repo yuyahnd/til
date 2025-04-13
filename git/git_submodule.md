@@ -3,3 +3,7 @@
 git-submodule - Initialize, update or inspect submodules
 
 ## SYNOPSIS
+
+```
+git submodule [--quiet] [--cached]
+```
