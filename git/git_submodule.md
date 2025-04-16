@@ -8,4 +8,5 @@ git-submodule - Initialize, update or inspect submodules
 git submodule [--quiet] [--cached]
 git submodule [--quiet] add [<options>] [--] <repository> [<path>]
 git submodule [--quiet] status [--cached] [--recursive] [--] [<path>…​]
+git submodule [--quiet] init [--] [<path>…​]
 ```
