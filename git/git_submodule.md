@@ -16,4 +16,5 @@ git submodule [--quiet] set-url [--] <path> <newurl>
 git submodule [--quiet] summary [<options>] [--] [<path>…​]
 git submodule [--quiet] foreach [--recursive] <command>
 git submodule [--quiet] sync [--recursive] [--] [<path>…​]
+git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 ```
