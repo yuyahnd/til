@@ -18,3 +18,5 @@ git submodule [--quiet] foreach [--recursive] <command>
 git submodule [--quiet] sync [--recursive] [--] [<path>…​]
 git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 ```
+
+## DESCRIPTION
