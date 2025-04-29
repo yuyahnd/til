@@ -22,3 +22,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 ## DESCRIPTION
 サブモジュールを検査、更新、管理します。
 サブモジュールの詳細についてはgitsubmodulesを参照してください。
+
+## COMMANDS
