@@ -25,3 +25,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 ## COMMANDS
 引数を指定しない場合は、既存のサブモジュールのステータスを表示します。サブモジュールに対して操作を実行するためのサブコマンドがいくつかあります。
+
+* add [-b \<branch>] [-f|--force] [--name \<name>] [--reference \<repository>] [--ref-format \<format>] [--depth \<depth>] [--] \<repository> [\<path>]
