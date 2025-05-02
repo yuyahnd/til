@@ -29,3 +29,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 * add [-b \<branch>] [-f|--force] [--name \<name>] [--reference \<repository>] [--ref-format \<format>] [--depth \<depth>] [--] \<repository> [\<path>]
 
 指定されたリポジトリを、現在のプロジェクトの次にコミットされる変更セットへの指定されたパスのサブモジュールとして追加します。現在のプロジェクトは「スーパープロジェクト」と呼ばれます。
+
+\<repository> は、新しいサブモジュールの元のリポジトリの URL です。これは絶対 URL か、（./ または ../ で始まる場合は）スーパープロジェクトのデフォルトのリモートリポジトリからの相対パスで指定します（スーパープロジェクト bar.git のすぐ隣にあるリポジトリ foo.git を指定する場合は、./foo.git ではなく ../foo.git を使用する必要があります。これは、相対 URL のルールに従うと当然のことですが、Git における相対 URL の評価は相対ディレクトリの評価と同じであるためです）。
