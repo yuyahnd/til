@@ -49,3 +49,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * deinit [-f|--force] (--all|[--] \<path>…​)  
 指定されたサブモジュールの登録を解除します。つまり、.git/config から submodule.$name セクション全体と、その作業ツリーを削除します。git submodule update、git submodule foreach、git submodule sync の呼び出しは、登録されていないサブモジュールを再度初期化するまでスキップします。そのため、作業ツリーにサブモジュールのローカルチェックアウトを保存したくない場合は、このコマンドを使用してください。<br><br>コマンドを pathspec なしで実行すると、間違いを防ぐためにすべてを deinit するのではなく、エラーを出力します。<br><br>--force が指定された場合、サブモジュールの作業ツリーは、ローカルの変更が含まれていても削除されます。<br><br>リポジトリからサブモジュールを削除してコミットしたい場合は、git-rm[1]を使用してください。削除オプションについてはgitsubmodulesを参照してください。
+
+* update [--init] [--remote] [-N|--no-fetch] [--[no-]recommend-shallow] [-f|--force] [--checkout|--rebase|--merge] [--reference \<repository>] [--ref-format \<format>] [--depth \<depth>] [--recursive] [--jobs \<n>] [--[no-]single-branch] [--filter \<filter-spec>] [--] [\<path>…​]  
