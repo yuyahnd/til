@@ -52,3 +52,6 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * update [--init] [--remote] [-N|--no-fetch] [--[no-]recommend-shallow] [-f|--force] [--checkout|--rebase|--merge] [--reference \<repository>] [--ref-format \<format>] [--depth \<depth>] [--recursive] [--jobs \<n>] [--[no-]single-branch] [--filter \<filter-spec>] [--] [\<path>…​]  
 不足しているサブモジュールをクローンし、サブモジュール内の不足しているコミットを取得し、サブモジュールのワーキングツリーを更新することで、登録済みのサブモジュールをスーパープロジェクトの期待値に合わせて更新します。「更新」は、コマンドラインオプションと submodule.<name>.update 設定変数の値に応じて、複数の方法で実行できます。コマンドラインオプションは設定変数よりも優先されます。どちらも指定されていない場合は、チェックアウトが実行されます。(注: .gitmodules ファイルの内容はこの時点では無関係です。.gitmodules の使用方法については、上記の git submodule init を参照してください)。コマンドラインと submodule.<name>.update 設定の両方でサポートされている更新手順は次のとおりです。
+
+  * checkout  
+  
