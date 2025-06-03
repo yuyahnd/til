@@ -58,4 +58,7 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
   * rebase  
   サブモジュールの現在のブランチは、スーパープロジェクトに記録されたコミットに基づいてリベースされます。
+
+  * merge  
+  
   
