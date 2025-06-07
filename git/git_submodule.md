@@ -62,6 +62,9 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
   * merge  
   スーパープロジェクトに記録されたコミットは、サブモジュールの現在のブランチにマージされます。  
   次の更新手順には追加の制限があります。
+
+  * custom command  
   
+
 
   
