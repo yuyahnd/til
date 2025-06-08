@@ -66,6 +66,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
   * custom command  
   コミットIDを引数として任意のコマンドを実行するためのメカニズムです。具体的には、submodule.<name>.update 設定変数が !custom command に設定されている場合、サブモジュールのスーパープロジェクトに記録されたコミットのオブジェクト名がカスタムコマンド文字列に追加されて実行されます。このメカニズムは、.gitmodules ファイルおよびコマンドラインではサポートされていないことに注意してください。
 
-
-
+  * none  
   
