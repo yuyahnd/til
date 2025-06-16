@@ -71,4 +71,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
   
   * set-branch (-b|--branch) \<branch> [--] \<path>  
   * set-branch (-d|--default) [--] \<path>  
-  
+  サブモジュールのデフォルトのリモート追跡ブランチを設定します。--branch オプションを使用すると、リモートブランチを指定できます。--default オプションは、submodule.\<name>.branch 設定キーを削除し、追跡ブランチのデフォルトをリモート HEAD に設定します。
