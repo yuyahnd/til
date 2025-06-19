@@ -75,3 +75,6 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
   * set-url [--] \<path> \<<newurl>  
   指定されたサブモジュールのURLを\<newurl>に設定します。その後、サブモジュールの新しいリモートURL設定が自動的に同期されます。
+
+  * summary [--cached|--files] [(-n|--summary-limit) \<n>] [commit] [--] [\<path>…​]  
+  
