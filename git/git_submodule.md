@@ -85,3 +85,6 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
   ```
   git submodule foreach 'echo $sm_path `git rev-parse HEAD`'
   ```
+  
+  * sync [--recursive] [--] [\<path>…​]  
+  
