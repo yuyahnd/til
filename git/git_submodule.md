@@ -88,3 +88,6 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
   
   * sync [--recursive] [--] [\<path>…​]  
   サブモジュールのリモートURL設定を.gitmodulesで指定された値に同期します。これは、.git/configに既にURLエントリがあるサブモジュール（初期化されたとき、または新規追加されたとき）にのみ影響します。これは、サブモジュールのアップストリームURLが変更され、それに応じてローカルリポジトリを更新する必要がある場合に便利です。<br><br>git submodule sync はすべてのサブモジュールを同期しますが、 git submodule sync -- A はサブモジュール「A」のみを同期します。<br><br>--recursive が指定されている場合、このコマンドは登録されたサブモジュールを再帰的に実行し、その中にあるネストされたサブモジュールを同期します。
+
+  * absorbgitdirs  
+  
