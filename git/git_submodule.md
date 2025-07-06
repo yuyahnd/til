@@ -95,3 +95,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 ## OPTIONS
 
 * -q
+* --quiet  
+ 
