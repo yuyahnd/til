@@ -96,4 +96,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * -q
 * --quiet  
- 
+エラーメッセージのみを印刷します。
