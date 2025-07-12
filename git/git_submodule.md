@@ -103,3 +103,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --all  
 このオプションはdeinitコマンドでのみ有効です。作業ツリー内のすべてのサブモジュールを登録解除します。
+
+* -b \<branch>
