@@ -106,3 +106,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * -b \<branch>
 * --branch \<branch>  
+サブモジュールとして追加するリポジトリのブランチ。ブランチ名は、update --remote の .gitmodules に submodule.<name>.branch として記録されます。特別な値 . は、サブモジュール内のブランチ名が現在のリポジトリの現在のブランチ名と同じであることを示します。このオプションが指定されていない場合は、デフォルトでリモート HEAD が使用されます。
