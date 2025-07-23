@@ -119,3 +119,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 このオプションはsummaryコマンドでのみ有効です。このオプションを使用すると、このコマンドはインデックス内のコミットとサブモジュールHEAD内のコミットを比較します。
 
 * -n  
+* --summary-limit  
