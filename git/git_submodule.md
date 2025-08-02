@@ -128,3 +128,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 * -N
 * --no-fetch  
 このオプションは更新コマンドでのみ有効です。リモートサイトから新しいオブジェクトを取得しないでください。
+
+* --checkout 
