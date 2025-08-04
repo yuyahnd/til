@@ -131,4 +131,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --checkout
 このオプションはupdateコマンドでのみ有効です。スーパープロジェクトに記録されたコミットを、サブモジュール内の分離HEADにチェックアウトします。これはデフォルトの動作です。このオプションの主な用途は、submodule.$name.updateがcheckout以外の値に設定されている場合に、それを上書きすることです。キーsubmodule.$name.updateが明示的に設定されていないか、checkoutに設定されている場合、このオプションは暗黙的に有効になります。
- 
+
+* --merge 
