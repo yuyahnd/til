@@ -140,3 +140,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --init  
 このオプションは更新コマンドでのみ有効です。更新前に、これまで「git submodule init」が呼び出されていないすべてのサブモジュールを初期化します。
+
+* --name
