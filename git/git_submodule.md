@@ -150,3 +150,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --dissociate
 このオプションはaddコマンドとupdateコマンドでのみ有効です。これらのコマンドはリモートリポジトリのクローンを必要とする場合があります。その場合、このオプションはgit-clone コマンドに渡されます。<br><br>注: --reference オプションについては、注を参照してください。
+
+* --recursive
