@@ -153,3 +153,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --recursive
 このオプションは、foreach、update、status、sync コマンドでのみ有効です。サブモジュールを再帰的に走査します。この操作は、現在のリポジトリ内のサブモジュールだけでなく、それらのサブモジュール内にネストされたサブモジュール（など）に対しても実行されます。
+
+* --depth
