@@ -157,4 +157,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 * --depth
 このオプションはaddコマンドとupdateコマンドで有効です。指定されたリビジョン数で履歴を切り捨てた浅いクローンを作成します。git-clone を参照してください。
 
-* -[no-]recommend-shallow
+* --[no-]recommend-shallow
+このオプションはupdateコマンドでのみ有効です。サブモジュールの初期クローンでは、デフォルトで.gitmodulesファイルで推奨されるsubmodule.\<name>.shallowが使用されます。この推奨を無視するには、--no-recommend-shallowを使用してください。
