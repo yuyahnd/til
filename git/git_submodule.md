@@ -161,3 +161,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 このオプションはupdateコマンドでのみ有効です。サブモジュールの初期クローンでは、デフォルトで.gitmodulesファイルで推奨されるsubmodule.\<name>.shallowが使用されます。この推奨を無視するには、--no-recommend-shallowを使用してください。
 
 * -j \<n>
+* --jobs \<n>
