@@ -165,3 +165,4 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 このオプションは更新コマンドでのみ有効です。新しいサブモジュールを、同じ数のジョブと並行して複製します。デフォルトはsubmodule.fetchJobsオプションです。
 
 * --[no-]single-branch 
+このオプションは更新コマンドでのみ有効です。更新時に、HEAD または --branch で指定されたブランチのいずれか 1 つだけを複製します。
