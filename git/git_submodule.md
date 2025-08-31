@@ -166,3 +166,5 @@ git submodule [--quiet] absorbgitdirs [--] [<path>…​]
 
 * --[no-]single-branch 
 このオプションは更新コマンドでのみ有効です。更新時に、HEAD または --branch で指定されたブランチのいずれか 1 つだけを複製します。
+
+* \<path>…​
