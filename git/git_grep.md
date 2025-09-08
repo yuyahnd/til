@@ -7,4 +7,5 @@ git-grep - Print lines matching a pattern
 ```bash
 git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regexp]
 	   [-v | --invert-match] [-h|-H] [--full-name]
+	   [-E | --extended-regexp] [-G | --basic-regexp]       
 ```
