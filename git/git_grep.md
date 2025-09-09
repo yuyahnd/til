@@ -9,4 +9,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 	   [-v | --invert-match] [-h|-H] [--full-name]
 	   [-E | --extended-regexp] [-G | --basic-regexp]
        [-P | --perl-regexp]
+       [-F | --fixed-strings] [-n | --line-number] [--column]
 ```
