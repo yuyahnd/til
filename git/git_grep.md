@@ -10,4 +10,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 	   [-E | --extended-regexp] [-G | --basic-regexp]
        [-P | --perl-regexp]
        [-F | --fixed-strings] [-n | --line-number] [--column]
+       [-l | --files-with-matches] [-L | --files-without-match]
 ```
