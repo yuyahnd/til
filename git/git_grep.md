@@ -14,4 +14,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
        [(-O | --open-files-in-pager) [<pager>]]
        [-z | --null]
        [ -o | --only-matching ] [-c | --count] [--all-match] [-q | --quiet]
+       [--max-depth <depth>] [--[no-]recursive]
 ```
