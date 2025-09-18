@@ -18,4 +18,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
        [--color[=<when>] | --no-color]
        [--break] [--heading] [-p | --show-function]
        [-A <post-context>] [-B <pre-context>] [-C <context>]
+       [-W | --function-context]
 ```
