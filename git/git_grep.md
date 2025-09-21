@@ -20,4 +20,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
        [-A <post-context>] [-B <pre-context>] [-C <context>]
        [-W | --function-context]
        [(-m | --max-count) <num>]
+       [--threads <num>]
 ```
