@@ -21,4 +21,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
        [-W | --function-context]
        [(-m | --max-count) <num>]
        [--threads <num>]
+       [-f <file>] [-e] <pattern>
 ```
