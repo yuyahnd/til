@@ -22,4 +22,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
        [(-m | --max-count) <num>]
        [--threads <num>]
        [-f <file>] [-e] <pattern>
+       [--and|--or|--not|(|)|-e <pattern>…​]
 ```
