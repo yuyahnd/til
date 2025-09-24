@@ -24,4 +24,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
           [-f <file>] [-e] <pattern>
           [--and|--or|--not|(|)|-e <pattern>…​]
           [--recurse-submodules] [--parent-basename <basename>]
+          [ [--[no-]exclude-standard] [--cached | --untracked | --no-index] | <tree>…​]
 ```
