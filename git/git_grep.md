@@ -27,3 +27,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
           [ [--[no-]exclude-standard] [--cached | --untracked | --no-index] | <tree>…​]
           [--] [<pathspec>…​]
 ```
+
+# DESCRIPTION
