@@ -34,3 +34,4 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 # OPTIONS
 
 * --cached 
+作業ツリー内の追跡対象ファイルを検索する代わりに、インデックス ファイルに登録されている BLOB を検索します。
