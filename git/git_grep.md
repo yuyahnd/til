@@ -38,3 +38,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 
 * --untracked
 作業ツリー内の追跡されたファイルだけでなく、追跡されていないファイルも検索します。
+
+* --no-index
