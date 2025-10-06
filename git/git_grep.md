@@ -41,3 +41,6 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 
 * --no-index
 現在のディレクトリ内でGitによって管理されていないファイル、または現在のディレクトリがGitによって管理されていることを無視してファイルを検索します。これは、通常のgrep(1)ユーティリティに-rオプションを指定して実行するのと似ていますが、pathspecパターンを使用してパスを制限するなど、いくつかの追加の利点があります。詳細については、gitglossary のpathspecの項目を参照してください。<br><br>このオプションは --cached または --untracked と同時に使用することはできません。以下の CONFIGURATION の grep.fallbackToNoIndex も参照してください。
+
+* --no-exclude-standard
+.gitignore メカニズムを無視することで、無視されたファイルも検索します。--untracked と併用した場合のみ有効です。
