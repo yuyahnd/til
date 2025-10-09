@@ -46,3 +46,4 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 .gitignore メカニズムを無視することで、無視されたファイルも検索します。--untracked と併用した場合のみ有効です。
 
 * --exclude-standard
+.gitignore メカニズムで指定された無視対象ファイルには注意を払いません。--no-index で現在のディレクトリ内のファイルを検索する場合にのみ有効です。
