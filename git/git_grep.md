@@ -47,3 +47,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 
 * --exclude-standard
 .gitignore メカニズムで指定された無視対象ファイルには注意を払いません。--no-index で現在のディレクトリ内のファイルを検索する場合にのみ有効です。
+
+* --recurse-submodules
