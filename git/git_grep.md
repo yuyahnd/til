@@ -62,3 +62,4 @@ textconv フィルター設定を尊重します。
 textconvフィルタの設定を無視します。これがデフォルトです。
 
 * -i
+* --ignore-case
