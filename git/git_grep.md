@@ -56,3 +56,4 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 バイナリ ファイルをテキストのように処理します。
 
 * --textconv
+textconv フィルター設定を尊重します。
