@@ -57,3 +57,5 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 
 * --textconv
 textconv フィルター設定を尊重します。
+
+* --no-textconv
