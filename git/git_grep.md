@@ -59,3 +59,4 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 textconv フィルター設定を尊重します。
 
 * --no-textconv
+textconvフィルタの設定を無視します。これがデフォルトです。
