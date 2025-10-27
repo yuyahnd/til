@@ -74,3 +74,5 @@ textconvフィルタの設定を無視します。これがデフォルトです
 * -r
 * --recursive
 --max-depth=-1 と同じです。これがデフォルトです。
+
+* --no-recursive
