@@ -79,3 +79,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 --max-depth=0 と同じです。
 
 * -w
+* --word-regexp
