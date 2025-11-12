@@ -96,3 +96,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 * -E
 * --extended-regexp
 * -G
+* --basic-regexp
