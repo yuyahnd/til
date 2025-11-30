@@ -117,3 +117,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 * -l
 * --files-with-matches
 * --name-only
+* -L
