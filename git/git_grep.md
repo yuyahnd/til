@@ -176,3 +176,5 @@ textconvフィルタの設定を無視します。これがデフォルトです
 
 * --threads \<num>
 使用するgrepワーカースレッドの数。詳細については、「スレッドに関する注意事項」および「CONFIGURATION」の「grep.threads」を参照してください。
+
+* -f \<file>
