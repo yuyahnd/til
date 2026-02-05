@@ -204,3 +204,7 @@ textconvフィルタの設定を無視します。これがデフォルトです
 
 * \<pathspec>…​
 指定すると、少なくとも1つのパターンに一致するパスのみを検索します。先頭のパスの一致とglob(7)パターンの両方がサポートされています。<br><br>\<pathspec>構文の詳細については、gitglossaryのpathspecの項目を参照してください。
+
+## EXAMPLES
+
+* git grep time_t' -- *.[ch]
