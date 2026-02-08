@@ -211,3 +211,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 作業ディレクトリとそのサブディレクトリ内のすべての追跡された .c および .h ファイルで time_t を検索します。
 
 * git grep -e '#define' --and \( -e MAX_PATH -e PATH_MAX \)
+#define と MAX_PATH または PATH_MAX のいずれかが含まれる行を検索します。
