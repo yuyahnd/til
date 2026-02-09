@@ -212,3 +212,5 @@ textconvフィルタの設定を無視します。これがデフォルトです
 
 * git grep -e '#define' --and \( -e MAX_PATH -e PATH_MAX \)
 #define と MAX_PATH または PATH_MAX のいずれかが含まれる行を検索します。
+
+* git grep --all-match -e NODE -e Unexpected
