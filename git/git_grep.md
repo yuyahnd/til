@@ -214,3 +214,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 #define と MAX_PATH または PATH_MAX のいずれかが含まれる行を検索します。
 
 * git grep --all-match -e NODE -e Unexpected
+両方に一致する行があるファイル内で、NODE または Unexpected がある行を検索します。
