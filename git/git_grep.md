@@ -217,3 +217,4 @@ textconvフィルタの設定を無視します。これがデフォルトです
 両方に一致する行があるファイル内で、NODE または Unexpected がある行を検索します。
 
 * git grep solution -- :^Documentation
+ドキュメント内のファイルを除外して解決策を検索します。
