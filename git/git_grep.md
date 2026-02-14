@@ -220,3 +220,5 @@ textconvフィルタの設定を無視します。これがデフォルトです
 ドキュメント内のファイルを除外して解決策を検索します。
 
 ## NOTES ON THREADS
+
+--open-files-in-pager が使用されている場合、--threads オプション (および grep.threads 構成) は無視され、シングルスレッド実行が強制されます。
