@@ -228,3 +228,5 @@ textconvフィルタの設定を無視します。これがデフォルトです
 
 * grep.lineNumber
 true に設定すると、デフォルトで -n オプションが有効になります。
+
+* grep.column
