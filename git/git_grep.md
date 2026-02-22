@@ -231,3 +231,5 @@ true に設定すると、デフォルトで -n オプションが有効にな�
 
 * grep.column
 true に設定すると、--column オプションがデフォルトで有効になります。
+
+* grep.patternType
