@@ -236,3 +236,4 @@ true に設定すると、--column オプションがデフォルトで有効に
 デフォルトのマッチング動作を設定します。basic、extended、fixed、perlのいずれかの値を指定すると、それぞれ--basic-regexp、--extended-regexp、--fixed-strings、--perl-regexpオプションが有効になります。一方、defaultを指定すると、grep.extendedRegexpオプションを使用してbasicとextendedのどちらかを選択します。
 
 * grep.extendedRegexp
+trueに設定すると、--extended-regexpオプションがデフォルトで有効になります。grep.patternTypeオプションがdefault以外の値に設定されている場合、このオプションは無視されます。
