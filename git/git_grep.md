@@ -237,3 +237,5 @@ true に設定すると、--column オプションがデフォルトで有効に
 
 * grep.extendedRegexp
 trueに設定すると、--extended-regexpオプションがデフォルトで有効になります。grep.patternTypeオプションがdefault以外の値に設定されている場合、このオプションは無視されます。
+
+* grep.threads
