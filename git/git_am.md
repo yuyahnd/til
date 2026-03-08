@@ -7,4 +7,5 @@ git-am - Apply a series of patches from a mailbox
 ```bash
 git am [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8] [--no-verify]
 	 [--[no-]3way] [--interactive] [--committer-date-is-author-date]
+	 [--ignore-date] [--ignore-space-change | --ignore-whitespace]
 ```
