@@ -13,4 +13,5 @@ git am [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8] [--no-verify]
 	 [--[no-]scissors] [-S[<keyid>]] [--patch-format=<format>]
 	 [--quoted-cr=<action>]
 	 [--empty=(stop|drop|keep)]
+	 [(<mbox> | <Maildir>)…​]
 ```
