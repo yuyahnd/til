@@ -16,3 +16,5 @@ git am [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8] [--no-verify]
 	 [(<mbox> | <Maildir>)…​]
 git am (--continue | --skip | --abort | --quit | --retry | --show-current-patch[=(diff|raw)] | --allow-empty)
 ```
+
+## DESCRIPTION
