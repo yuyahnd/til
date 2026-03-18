@@ -21,3 +21,5 @@ git am (--continue | --skip | --abort | --quit | --retry | --show-current-patch[
 メールボックス内のメールメッセージをコミットログメッセージ、作成者情報、パッチに分割し、現在のブランチに適用します。これは、マージのないストレートな履歴を持つブランチで実行されるgit-format-patch の逆の操作と考えることができます。
 
 ## OPTIONS
+
+* (\<mbox>|\<Maildir>)…​
