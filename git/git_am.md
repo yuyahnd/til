@@ -23,3 +23,4 @@ git am (--continue | --skip | --abort | --quit | --retry | --show-current-patch[
 ## OPTIONS
 
 * (\<mbox>|\<Maildir>)…​
+パッチを読み込むメールボックスファイルのリスト。この引数を指定しない場合、コマンドは標準入力から読み込みます。ディレクトリを指定した場合、それらはMaildirとして扱われます。
