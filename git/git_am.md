@@ -27,3 +27,4 @@ git am (--continue | --skip | --abort | --quit | --retry | --show-current-patch[
 
 * -s
 * --signoff
+コミットメッセージに、自分のコミッターIDを使用してSigned-off-byトレーラーを追加します。
