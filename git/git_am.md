@@ -35,3 +35,5 @@ git am (--continue | --skip | --abort | --quit | --retry | --show-current-patch[
 
 * --keep-non-patch
 git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
+
+* --keep-cr
