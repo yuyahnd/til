@@ -39,3 +39,5 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 * --keep-cr
 * --no-keep-cr
 --keep-cr を使用すると、git mailsplit (git-mailsplit を参照) を同じオプションで呼び出し、行末の CR が削除されないようにします。デフォルトの動作を指定するには、am.keepcr 設定変数を使用できます。--no-keep-cr は、am.keepcr を上書きするのに便利です。
+
+* -c
