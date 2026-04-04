@@ -45,3 +45,4 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 はさみ行より前の本文中のすべてを削除します（git-mailinfo を参照）。mailinfo.scissors設定変数を使用すると、デフォルトで有効にできます。
 
 * --no-scissors
+ハサミの線は無視してください（git-mailinfoを参照）。
