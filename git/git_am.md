@@ -46,3 +46,5 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 
 * --no-scissors
 ハサミの線は無視してください（git-mailinfoを参照）。
+
+* --quoted-cr=\<action>
