@@ -49,3 +49,5 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 
 * --quoted-cr=\<action>
 このフラグはgit mailinfoに渡されます（git-mailinfoを参照）。
+
+* --empty=(drop|keep|stop)
