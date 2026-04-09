@@ -52,3 +52,4 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 
 * --empty=(drop|keep|stop)
 パッチが適用されていないメールメッセージの対処方法：
+	* drop
