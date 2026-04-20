@@ -62,3 +62,5 @@ git mailinfo に -b フラグを渡します (git-mailinfo を参照)。
 * -m
 * --message-id
 git mailinfo に -m フラグを渡すと (git-mailinfo[1] を参照)、コミットメッセージに Message-ID ヘッダーが追加されます。デフォルトの動作を指定するには、am.messageid 設定変数を使用できます。
+
+* --no-message-id
