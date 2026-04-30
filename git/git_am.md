@@ -78,3 +78,4 @@ git mailinfo に -u フラグを渡してください (git-mailinfo[1] を参照
 git mailinfo に -n フラグを渡します (git-mailinfo を参照)。
 
 * -3
+* --3way
