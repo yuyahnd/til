@@ -79,3 +79,4 @@ git mailinfo に -n フラグを渡します (git-mailinfo を参照)。
 
 * -3
 * --3way
+* --no-3way
