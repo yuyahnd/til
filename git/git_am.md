@@ -81,3 +81,5 @@ git mailinfo に -n フラグを渡します (git-mailinfo を参照)。
 * --3way
 * --no-3way
 パッチが正常に適用されない場合、パッチが適用対象のブロブの識別情報を記録し、それらのブロブがローカルで利用可能であれば、3 ウェイ マージにフォールバックします。--no-3way を使用すると、am.threeWay 設定変数を上書きできます。詳細については、git-config の am.threeWay を参照してください。
+
+* --rerere-autoupdate
