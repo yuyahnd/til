@@ -87,3 +87,4 @@ git mailinfo に -n フラグを渡します (git-mailinfo を参照)。
 rerere メカニズムが現在の競合に対する記録された解決策を再利用して作業ツリー内のファイルを更新した後、解決結果でインデックスも更新できるようにします。 --no-rerere-autoupdate は、結果を別の git add でインデックスにコミットする前に、rerere が何をしたかを再確認し、潜在的なマージミスを検出するのに適した方法です。
 
 * --ignore-space-change
+* --ignore-whitespace
