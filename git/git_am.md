@@ -124,3 +124,4 @@ GPG署名コミット。keyid引数はオプションで、デフォルトでは
 
 * --continue
 * -r
+* --resolved
