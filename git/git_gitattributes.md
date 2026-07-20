@@ -5,3 +5,4 @@ gitattributes - Defining attributes per path
  $GIT_DIR/info/attributes, .gitattributes
 
 # DESCRIPTION
+gitattributesファイルは、パス名に属性を割り当てる単純なテキストファイルです。
