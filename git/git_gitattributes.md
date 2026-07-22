@@ -7,3 +7,7 @@ gitattributes - Defining attributes per path
 # DESCRIPTION
 gitattributesファイルは、パス名に属性を割り当てる単純なテキストファイルです。
 gitattributes ファイルの各行は、次の形式になっています。
+
+```
+pattern attr1 attr2 ...
+```
