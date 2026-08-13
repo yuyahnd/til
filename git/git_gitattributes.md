@@ -46,3 +46,5 @@ pattern attr1 attr2 ...
 
 # RESERVED BUILTIN_* ATTRIBUTES
 `builtin_*` は、組み込み属性値のために予約された名前空間です。この名前空間配下でユーザーが定義した属性は無視され、警告が生成されます。
+
+* builtin_objectmode
