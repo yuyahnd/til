@@ -48,3 +48,4 @@ pattern attr1 attr2 ...
 `builtin_*` は、組み込み属性値のために予約された名前空間です。この名前空間配下でユーザーが定義した属性は無視され、警告が生成されます。
 
 * builtin_objectmode
+この属性は、ファイルのビットモード（40000、120000、160000、100755、100644）に基づいてファイルをフィルタリングするためのものです（例: `(attr:builtin_objectmode=160000)`）。これらの値は、`git check-attr builtin_objectmode -- <file>` コマンドで確認することもできます。オブジェクトがインデックスに含まれていない場合、`git check-attr --cached` は `unspecified` を返します。
