@@ -49,3 +49,5 @@ pattern attr1 attr2 ...
 
 * builtin_objectmode
 この属性は、ファイルのビットモード（40000、120000、160000、100755、100644）に基づいてファイルをフィルタリングするためのものです（例: `(attr:builtin_objectmode=160000)`）。これらの値は、`git check-attr builtin_objectmode -- <file>` コマンドで確認することもできます。オブジェクトがインデックスに含まれていない場合、`git check-attr --cached` は `unspecified` を返します。
+
+# EFFECTS
