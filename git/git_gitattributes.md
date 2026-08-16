@@ -52,3 +52,5 @@ pattern attr1 attr2 ...
 
 # EFFECTS
 パスに特定の属性を割り当てることで、Gitの特定の動作に影響を与えることができます。現在、以下の操作が属性を考慮するようになっています。
+
+* Checking-out and checking-in
