@@ -55,3 +55,5 @@ pattern attr1 attr2 ...
 
 * Checking-out and checking-in
 これらの属性は、`git switch`、`git checkout`、`git merge` などのコマンドが実行される際、リポジトリに格納されているコンテンツがワーキングツリーのファイルにどのようにコピーされるかに影響します。また、`git add` や `git commit` を行う際に、ワーキングツリーで用意したコンテンツがリポジトリにどのように格納されるかにも影響を及ぼします。
+
+* text
