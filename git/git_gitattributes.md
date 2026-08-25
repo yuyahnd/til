@@ -64,3 +64,5 @@ pattern attr1 attr2 ...
 
 * Unset
 パスに対して `text` 属性の設定を解除すると、チェックインやチェックアウトの際に改行コードの変換を行わないよう Git に指示することになります。
+
+* Set to string value "auto"
