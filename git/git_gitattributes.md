@@ -78,3 +78,5 @@ text 属性が指定されていない場合、Git は core.autocrlf 設定変�
 
 * Set to string value "crlf"
 この設定は、ファイルがチェックアウトされる際、作業ディレクトリ内のファイルの改行コードをCRLFに変換します。
+
+* Set to string value "lf"
