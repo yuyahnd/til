@@ -81,3 +81,5 @@ text 属性が指定されていない場合、Git は core.autocrlf 設定変�
 
 * Set to string value "lf"
 この設定では、ファイルのチェックアウト時に、作業ディレクトリ内の改行コードがインデックス内のものと同じになります。
+
+* Unspecified
