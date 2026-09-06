@@ -84,3 +84,5 @@ text 属性が指定されていない場合、Git は core.autocrlf 設定変�
 
 * Unspecified
 ファイルに対して `eol` 属性が指定されていない場合、作業ディレクトリにおけるそのファイルの改行コードは、`core.autocrlf` または `core.eol` 設定変数によって決定されます（これらのオプションの定義については `git-config[1]` を参照してください）。`text` 属性が設定されているものの、それらの変数のいずれも設定されていない場合、デフォルト値は Windows では `eol=crlf`、それ以外のすべてのプラットフォームでは `eol=lf` となります。
+
+* Backwards compatibility with crlf attribute
