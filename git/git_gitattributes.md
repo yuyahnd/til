@@ -87,3 +87,8 @@ text 属性が指定されていない場合、Git は core.autocrlf 設定変�
 
 * Backwards compatibility with crlf attribute
 後方互換性のため、crlf 属性は次のように解釈されます。
+
+
+```
+crlf		text
+```
