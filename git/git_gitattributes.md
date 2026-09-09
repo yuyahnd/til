@@ -91,4 +91,5 @@ text 属性が指定されていない場合、Git は core.autocrlf 設定変�
 
 ```
 crlf		text
+-crlf		-text
 ```
