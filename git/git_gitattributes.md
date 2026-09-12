@@ -94,3 +94,5 @@ crlf		text
 -crlf		-text
 crlf=input	eol=lf
 ```
+
+* End-of-line conversion
