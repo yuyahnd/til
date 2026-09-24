@@ -116,4 +116,5 @@ Gitは通常、ファイルの内容をそのまま保持しますが、設定�
 *               text=auto
 *.txt		    text
 *.vcproj	text eol=crlf
+*.sh		text eol=lf
 ```
