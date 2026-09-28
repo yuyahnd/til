@@ -127,4 +127,5 @@ Gitは通常、ファイルの内容をそのまま保持しますが、設定�
 
 ```bash
 $ echo "* text=auto" >.gitattributes
+$ git add --renormalize .
 ```
