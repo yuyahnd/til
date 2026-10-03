@@ -133,3 +133,8 @@ $ git commit -m "Introduce end-of-line normalization"
 ```
 
 正規化すべきではないファイルが `git status` に表示される場合は、`git add -u` を実行する前に、それらのファイルの text 属性を解除してください。
+
+
+```
+manual.pdf	-text
+```
