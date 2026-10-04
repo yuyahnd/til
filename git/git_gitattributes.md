@@ -138,3 +138,5 @@ $ git commit -m "Introduce end-of-line normalization"
 ```
 manual.pdf	-text
 ```
+
+逆に、Gitが検出しないテキストファイルに対しては、手動で正規化を有効にすることができます。
