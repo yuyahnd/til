@@ -177,3 +177,5 @@ Gitは、ASCIIまたはそのスーパーセット（UTF-8、ISO-8859-1など）
 ```powershell
 *.ps1		text working-tree-encoding=UTF-16
 ```
+
+*.ps1 ファイルが BOM なしの UTF-16 リトルエンディアンでエンコードされており、かつ作業ディレクトリ内で Windows 形式の改行コードを使用したい場合は、以下の属性を指定してください（BOM 付きの UTF-16 リトルエンディアンにする場合は、UTF-16LE ではなく UTF-16LE-BOM を使用してください）。なお、曖昧さを避けるため、working-tree-encoding 属性を使用する際には、eol 属性を用いて改行コードを明示的に指定することを強く推奨します。
