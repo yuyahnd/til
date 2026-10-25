@@ -184,3 +184,5 @@ Gitは、ASCIIまたはそのスーパーセット（UTF-8、ISO-8859-1など）
 ```powershell
 *.ps1		text working-tree-encoding=UTF-16LE eol=crlf
 ```
+
+以下のコマンドを実行すると、利用可能なすべてのエンコーディングのリストをプラットフォーム上で取得できます。
