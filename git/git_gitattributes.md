@@ -198,3 +198,5 @@ iconv --list
 ```bash
 file foo.ps1
 ```
+
+* ident
