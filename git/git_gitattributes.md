@@ -208,3 +208,7 @@ filter属性には、構成内で指定されたフィルタードライバー�
 注: `clean` フィルターを変更した場合は、リポジトリを再正規化（renormalize）する必要があります。その際は `$ git add --renormalize .` を実行してください。
 
 例えば、`.gitattributes` ファイルにおいて、特定のパスに対して `filter` 属性を割り当てます。
+
+```bash
+*.c	filter=indent
+```
