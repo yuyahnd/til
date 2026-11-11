@@ -217,4 +217,5 @@ filter属性には、構成内で指定されたフィルタードライバー�
 
 ```bash
 [filter "indent"]
+	clean = indent
 ```
