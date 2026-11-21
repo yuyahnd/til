@@ -234,4 +234,5 @@ filter属性には、構成内で指定されたフィルタードライバー�
 ```bash
 [filter "p4"]
 	clean = git-p4-filter --clean %f
+	smudge = git-p4-filter --smudge %f
 ```
