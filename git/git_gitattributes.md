@@ -241,3 +241,5 @@ filter属性には、構成内で指定されたフィルタードライバー�
 
 * Long Running Filter Process
 `filter.<driver>.process` を通じてフィルターコマンド（文字列値）が定義されている場合、Gitは1回のGitコマンド実行の全期間を通じて、単一のフィルター呼び出しで（すべての）ブロブを処理できるようになります。これは、「長時間実行プロセスプロトコル」（`Documentation/technical/long-running-process-protocol.adoc` に記載）を利用することで実現されます。
+
+Git は、クリーニングまたは汚れを除去する必要がある最初のファイルを検出すると、フィルターを開始してハンドシェイクを実行します。ハンドシェイクでは、Git によって送信されるウェルカム メッセージは「git-filter-client」で、バージョン 2 のみがサポートされ、サポートされる機能は「clean」、「smudge」、および「delay」です。
